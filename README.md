@@ -1,5 +1,7 @@
 # VisualStudioUpdate
 
+[![Publish Visual Studio Atom feed](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml/badge.svg)](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml)
+
 This .NET 10 console application generates an Atom feed containing the release updates documented for Visual Studio 2026, Visual Studio 2026 Insiders, and Visual Studio 2026 Build Tools.
 
 The application reads the official Microsoft Learn release-note pages instead of the Visual Studio blog RSS feed, because the blog feed does not document every release:
