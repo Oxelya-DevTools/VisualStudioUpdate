@@ -9,25 +9,17 @@ internal static partial class Program
 {
     private const string VisualStudioReleaseNotes = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes";
     private const string VisualStudioInsiderReleaseNotes = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders";
+    private const string VisualStudioBuildToolsReleaseNotes = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools";
     private const string DefaultOutputPath = "visual-studio-2026.atom";
-    private const string DefaultTitle = "Visual Studio 2026 Updates";
-    private const string DefaultFeedId = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes";
-    private const string DefaultFeedLink = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes";
-    private const string DefaultProductPrefix = "Visual Studio 2026";
     private const int RegexTimeoutMilliseconds = 5_000;
     private const long MaxResponseBytes = 16L * 1024 * 1024;
 
     private static async Task<int> Main(string[] args)
     {
         var outputPath = GetOutputPath(args);
-        var title = GetOptionValue(args, "--title") ?? DefaultTitle;
-        var productPrefix = GetOptionValue(args, "--product-prefix") ?? DefaultProductPrefix;
-        var feedId = GetOptionValue(args, "--feed-id") ?? DefaultFeedId;
-        var feedLink = GetOptionValue(args, "--feed-link") ?? DefaultFeedLink;
-
         if (outputPath is null)
         {
-            Console.Error.WriteLine("Usage: VisualStudioUpdateRSS [--output <path>] [--title <title>] [--product-prefix <prefix>] [--feed-id <id>] [--feed-link <link>]");
+            Console.Error.WriteLine("Usage: VisualStudioUpdateRSS [--output <path>]");
             return 1;
         }
 
@@ -36,9 +28,11 @@ internal static partial class Program
         try
         {
             var entries = (await Task.WhenAll(
-                    LoadReleasesAsync(httpClient, VisualStudioReleaseNotes, productPrefix),
-                    LoadReleasesAsync(httpClient, VisualStudioInsiderReleaseNotes, productPrefix)))
+                    LoadReleasesAsync(httpClient, VisualStudioReleaseNotes, "Visual Studio 2026"),
+                    LoadReleasesAsync(httpClient, VisualStudioInsiderReleaseNotes, "Visual Studio 2026 Insiders"),
+                    LoadReleasesAsync(httpClient, VisualStudioBuildToolsReleaseNotes, "Visual Studio 2026 Build Tools")))
                 .SelectMany(static releases => releases)
+                .DistinctBy(static release => (release.Published, release.Title, release.Link))
                 .OrderByDescending(static release => release.Published)
                 .ThenByDescending(static release => release.Title, StringComparer.Ordinal)
                 .ToArray();
@@ -48,7 +42,7 @@ internal static partial class Program
                 throw new InvalidOperationException("No release entries were found in the Microsoft Learn pages.");
             }
 
-            await WriteAtomFeedAsync(outputPath, entries, title, feedId, feedLink);
+            await WriteAtomFeedAsync(outputPath, entries);
             Console.WriteLine($"Generated {entries.Length} entries in {Path.GetFullPath(outputPath)}");
             return 0;
         }
@@ -72,7 +66,7 @@ internal static partial class Program
         return client;
     }
 
-    private static async Task<IReadOnlyList<ReleaseEntry>> LoadReleasesAsync(HttpClient client, string url, string productPrefix)
+    private static async Task<IReadOnlyList<ReleaseEntry>> LoadReleasesAsync(HttpClient client, string url, string product)
     {
         using var response = await client.GetAsync(url);
         response.EnsureSuccessStatusCode();
@@ -110,7 +104,7 @@ internal static partial class Program
 
             var summary = CleanText(section);
             releases.Add(new ReleaseEntry(
-                $"{productPrefix}: {title}",
+                $"{product}: {title}",
                 published,
                 $"{url}#{heading.Groups[1].Value}",
                 summary));
@@ -119,7 +113,7 @@ internal static partial class Program
         return releases;
     }
 
-    private static async Task WriteAtomFeedAsync(string outputPath, IReadOnlyList<ReleaseEntry> entries, string title, string feedId, string feedLink)
+    private static async Task WriteAtomFeedAsync(string outputPath, IReadOnlyList<ReleaseEntry> entries)
     {
         var fullPath = Path.GetFullPath(outputPath);
         var directory = Path.GetDirectoryName(fullPath);
@@ -133,12 +127,12 @@ internal static partial class Program
         await using var writer = XmlWriter.Create(stream, settings);
         await writer.WriteStartDocumentAsync();
         await writer.WriteStartElementAsync(null, "feed", "http://www.w3.org/2005/Atom");
-        await writer.WriteElementStringAsync(null, "title", null, title);
-        await writer.WriteElementStringAsync(null, "id", null, feedId);
+        await writer.WriteElementStringAsync(null, "title", null, "Visual Studio 2026 Updates");
+        await writer.WriteElementStringAsync(null, "id", null, "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes");
         await writer.WriteElementStringAsync(null, "updated", null, entries[0].Published.ToUniversalTime().ToString("O", CultureInfo.InvariantCulture));
         await writer.WriteStartElementAsync(null, "link", null);
         await writer.WriteAttributeStringAsync(null, "rel", null, "self");
-        await writer.WriteAttributeStringAsync(null, "href", null, feedLink);
+        await writer.WriteAttributeStringAsync(null, "href", null, "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes");
         await writer.WriteEndElementAsync();
 
         foreach (var entry in entries)
@@ -161,14 +155,9 @@ internal static partial class Program
 
     private static string? GetOutputPath(string[] args)
     {
-        return GetOptionValue(args, "--output") ?? DefaultOutputPath;
-    }
-
-    private static string? GetOptionValue(string[] args, string optionName)
-    {
         for (var index = 0; index < args.Length; index++)
         {
-            if (!string.Equals(args[index], optionName, StringComparison.OrdinalIgnoreCase))
+            if (!string.Equals(args[index], "--output", StringComparison.OrdinalIgnoreCase))
             {
                 continue;
             }
@@ -181,7 +170,7 @@ internal static partial class Program
             return args[index + 1];
         }
 
-        return null;
+        return DefaultOutputPath;
     }
 
     private static string CleanText(string html)
