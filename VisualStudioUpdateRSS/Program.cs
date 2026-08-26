@@ -10,10 +10,18 @@ internal static partial class Program
     private const string VisualStudioReleaseNotes = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes";
     private const string VisualStudioInsiderReleaseNotes = "https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders";
     private const string DefaultOutputPath = "visual-studio-2026.atom";
+    private const int RegexTimeoutMilliseconds = 5_000;
+    private const long MaxResponseBytes = 16L * 1024 * 1024;
 
     private static async Task<int> Main(string[] args)
     {
         var outputPath = GetOutputPath(args);
+        if (outputPath is null)
+        {
+            Console.Error.WriteLine("Usage: VisualStudioUpdateRSS [--output <path>]");
+            return 1;
+        }
+
         using var httpClient = CreateHttpClient();
 
         try
@@ -35,7 +43,8 @@ internal static partial class Program
             Console.WriteLine($"Generated {entries.Length} entries in {Path.GetFullPath(outputPath)}");
             return 0;
         }
-        catch (Exception exception) when (exception is HttpRequestException or InvalidOperationException or IOException)
+        catch (Exception exception) when (exception is HttpRequestException or InvalidOperationException
+            or IOException or TaskCanceledException or RegexMatchTimeoutException or UnauthorizedAccessException)
         {
             Console.Error.WriteLine($"Unable to generate the Atom feed: {exception.Message}");
             return 1;
@@ -44,14 +53,28 @@ internal static partial class Program
 
     private static HttpClient CreateHttpClient()
     {
-        var client = new HttpClient { Timeout = TimeSpan.FromSeconds(30) };
+        var handler = new SocketsHttpHandler { AllowAutoRedirect = true, MaxAutomaticRedirections = 5 };
+        var client = new HttpClient(handler, disposeHandler: true)
+        {
+            Timeout = TimeSpan.FromSeconds(30),
+            MaxResponseContentBufferSize = MaxResponseBytes,
+        };
         client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("VisualStudioUpdateRSS", "1.0"));
         return client;
     }
 
     private static async Task<IReadOnlyList<ReleaseEntry>> LoadReleasesAsync(HttpClient client, string url, string product)
     {
-        var html = await client.GetStringAsync(url);
+        using var response = await client.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+
+        var contentLength = response.Content.Headers.ContentLength;
+        if (contentLength > MaxResponseBytes)
+        {
+            throw new InvalidOperationException($"The response from {url} exceeds the {MaxResponseBytes} byte limit.");
+        }
+
+        var html = await response.Content.ReadAsStringAsync();
         var headings = HeadingRegex().Matches(html).Cast<Match>().ToArray();
         var releases = new List<ReleaseEntry>();
 
@@ -127,14 +150,21 @@ internal static partial class Program
         await writer.WriteEndDocumentAsync();
     }
 
-    private static string GetOutputPath(string[] args)
+    private static string? GetOutputPath(string[] args)
     {
-        for (var index = 0; index < args.Length - 1; index++)
+        for (var index = 0; index < args.Length; index++)
         {
-            if (string.Equals(args[index], "--output", StringComparison.OrdinalIgnoreCase))
+            if (!string.Equals(args[index], "--output", StringComparison.OrdinalIgnoreCase))
             {
-                return args[index + 1];
+                continue;
             }
+
+            if (index + 1 >= args.Length || string.IsNullOrWhiteSpace(args[index + 1]))
+            {
+                return null;
+            }
+
+            return args[index + 1];
         }
 
         return DefaultOutputPath;
@@ -142,16 +172,29 @@ internal static partial class Program
 
     private static string CleanText(string html)
     {
-        var withoutCode = Regex.Replace(html, "<(script|style)\\b[^>]*>.*?</\\1>", " ", RegexOptions.IgnoreCase | RegexOptions.Singleline);
-        var text = Regex.Replace(withoutCode, "<[^>]+>", " ");
-        return Regex.Replace(WebUtility.HtmlDecode(text), "\\s+", " ").Trim();
+        var withoutCode = ScriptAndStyleRegex().Replace(html, " ");
+        var text = TagRegex().Replace(withoutCode, " ");
+        var decoded = InvalidXmlCharRegex().Replace(WebUtility.HtmlDecode(text), string.Empty);
+        return WhitespaceRegex().Replace(decoded, " ").Trim();
     }
 
-    [GeneratedRegex("<h2\\b[^>]*id=\\\"([^\\\"]+)\\\"[^>]*>(.*?)</h2>", RegexOptions.IgnoreCase | RegexOptions.Singleline)]
+    [GeneratedRegex("<h2\\b[^>]*id=\\\"([^\\\"]+)\\\"[^>]*>(.*?)</h2>", RegexOptions.IgnoreCase | RegexOptions.Singleline, RegexTimeoutMilliseconds)]
     private static partial Regex HeadingRegex();
 
-    [GeneratedRegex("Released on\\s*(?:<[^>]+>\\s*)*([^<]+)", RegexOptions.IgnoreCase | RegexOptions.Singleline)]
+    [GeneratedRegex("Released on\\s*(?:<[^>]+>\\s*)*([^<]+)", RegexOptions.IgnoreCase | RegexOptions.Singleline, RegexTimeoutMilliseconds)]
     private static partial Regex DateRegex();
+
+    [GeneratedRegex("<(script|style)\\b[^>]*>.*?</\\1>", RegexOptions.IgnoreCase | RegexOptions.Singleline, RegexTimeoutMilliseconds)]
+    private static partial Regex ScriptAndStyleRegex();
+
+    [GeneratedRegex("<[^>]+>", RegexOptions.None, RegexTimeoutMilliseconds)]
+    private static partial Regex TagRegex();
+
+    [GeneratedRegex("\\s+", RegexOptions.None, RegexTimeoutMilliseconds)]
+    private static partial Regex WhitespaceRegex();
+
+    [GeneratedRegex("[\\x00-\\x08\\x0B\\x0C\\x0E-\\x1F\\uFFFE\\uFFFF]", RegexOptions.None, RegexTimeoutMilliseconds)]
+    private static partial Regex InvalidXmlCharRegex();
 
     private sealed record ReleaseEntry(string Title, DateTimeOffset Published, string Link, string Summary);
 }
