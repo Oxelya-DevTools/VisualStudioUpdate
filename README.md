@@ -12,23 +12,31 @@ The application reads the official Microsoft Learn release-note pages instead of
 Run the command from the repository root:
 
 ```powershell
-dotnet run --project .\VisualStudioUpdateRSS\VisualStudioUpdateRSS.csproj --output .\visual-studio-2026.atom
+dotnet run --project .\VisualStudioUpdateRSS\VisualStudioUpdateRSS.csproj -- --output .\visual-studio-2026.atom
 ```
 
 If you are not in the repository root, use the full path to the project and output file. The default output file is `visual-studio-2026.atom`. The generated Atom document can be added directly to an RSS/Atom reader.
 
-## Publish on GitHub
+## Use the public feed or host your own
 
-The included `.github/workflows/publish-feed.yml` regenerates the feed every day and deploys it to GitHub Pages.
+You have two options:
 
-1. Push the repository to GitHub and open **Settings > Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Run the **Publish Visual Studio Atom feed** workflow once from the **Actions** tab.
-
-After the first deployment, subscribe to:
+1. Use the already published feed directly:
 
 ```text
 https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.atom
 ```
 
-The scheduled workflow keeps the feed updated automatically.
+2. Publish the feed in your own repository:
+   - Fork or duplicate this repository.
+   - Push it to GitHub.
+   - Open **Settings > Pages**.
+   - Set **Source** to **GitHub Actions**.
+   - Run the **Publish Visual Studio Atom feed** workflow once from the **Actions** tab.
+   - Subscribe to your own GitHub Pages URL, for example:
+
+```text
+https://YOUR-OWNER.github.io/YOUR-REPOSITORY/visual-studio-2026.atom
+```
+
+The included `.github/workflows/publish-feed.yml` regenerates the feed every day and keeps it updated automatically.
