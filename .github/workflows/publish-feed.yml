@@ -33,7 +33,7 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: Generate Atom feed
+      - name: Generate Visual Studio Atom feed
         run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --output docs/visual-studio-2026.atom
 
       - name: Configure GitHub Pages

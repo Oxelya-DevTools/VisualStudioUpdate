@@ -2,8 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-08-18T00:00:00.0000000+00:00</updated>
+  <updated>2026-08-25T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.9.2</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2" />
+    <published>2026-08-25T00:00:00.0000000+00:00</published>
+    <updated>2026-08-25T00:00:00.0000000+00:00</updated>
+    <summary>Released on August 25, 2026 . Top bug fixes From the community Includes additional platform hardening and secure-development improvements Normal Paste in Solution Explorer now creates a physical copy of files copied from Windows File Explorer instead of adding them as linked items</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026: Version 12120.281</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12120.281</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12120.281" />
+    <published>2026-08-25T00:00:00.0000000+00:00</published>
+    <updated>2026-08-25T00:00:00.0000000+00:00</updated>
+    <summary>Released on August 25, 2026 . Top bug fixes From the community GitHub Copilot Chat resets model to Claude Sonnet 4.5 on new threads rather than preserve last selected local model Feedback ticket UWP Unit Test App fails to run with StackOverflowException using Build Tools 2026 Feedback ticket Fixed crash in VS when constructing third-party WPF controls that overrode UI Automation peer members Visual Studio source control plugin selection resets to Git after restart Feedback ticket</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.9.1</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.1</id>
@@ -13,7 +29,7 @@
     <summary>Released on August 18, 2026 Top bug fixes From the community Copilot Command preview dialog is not scrollable, blocking allow or deny actions Feedback Ticket Fix to Test Agent in 18.9.0</summary>
   </entry>
   <entry>
-    <title>Visual Studio 2026 Insiders: Version 12113.136</title>
+    <title>Visual Studio 2026: Version 12113.136</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12113.136</id>
     <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12113.136" />
     <published>2026-08-18T00:00:00.0000000+00:00</published>
