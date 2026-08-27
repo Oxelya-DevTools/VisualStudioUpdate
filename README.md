@@ -48,4 +48,4 @@ https://YOUR-OWNER.github.io/YOUR-REPOSITORY/vscode.atom
 https://YOUR-OWNER.github.io/YOUR-REPOSITORY/vscode.md
 ```
 
-The included `.github/workflows/publish-feed.yml` regenerates both files every day and keeps them updated automatically.
+The included `.github/workflows/publish-feed.yml` regenerates all four files every day and verifies that each output is non-empty before publishing.

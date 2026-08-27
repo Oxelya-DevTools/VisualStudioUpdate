@@ -34,9 +34,19 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: Generate Visual Studio feed
-        run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --output docs/visual-studio-2026.atom
+        run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --output docs/visual-studio-2026.atom --timeline-output docs/visual-studio-2026.md
       - name: Generate Visual Studio Code feed
-        run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --product vscode --output docs/vscode.atom
+        run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --product vscode --output docs/vscode.atom --timeline-output docs/vscode.md
+
+      - name: Verify generated feeds
+        shell: bash
+        run: |
+          test -s docs/visual-studio-2026.atom
+          test -s docs/visual-studio-2026.md
+          test -s docs/vscode.atom
+          test -s docs/vscode.md
+          echo "Generated files:"
+          ls -lh docs/visual-studio-2026.atom docs/visual-studio-2026.md docs/vscode.atom docs/vscode.md
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
