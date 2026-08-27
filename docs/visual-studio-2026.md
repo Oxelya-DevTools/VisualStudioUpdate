@@ -9,7 +9,7 @@ Repository README: [VisualStudioUpdate README](https://github.com/Oxelya-DevTool
 ```mermaid
 %%{init: {'theme':'default','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'taskTextColor': '#FFFFFF', 'taskBkgColor': '#22B8CF', 'taskBorderColor': '#22B8CF', 'doneTaskBkgColor': '#B05AA9', 'doneTaskBorderColor': '#B05AA9', 'activeTaskBkgColor': '#17BEBB', 'activeTaskBorderColor': '#17BEBB', 'critTaskBkgColor': '#FF6B57', 'critTaskBorderColor': '#FF6B57' }}}%%
 gantt
-    title Product Development Roadmap
+    title Visual Studio 2026 Timeline
     dateFormat  YYYY-MM-DD
     axisFormat  %b
     tickInterval 1month
