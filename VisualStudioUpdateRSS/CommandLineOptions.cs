@@ -3,7 +3,8 @@
 /// </summary>
 /// <param name="AtomOutputPath">Output path for the Atom file.</param>
 /// <param name="TimelineOutputPath">Output path for the Markdown timeline file.</param>
-internal sealed record CommandLineOptions(string AtomOutputPath, string TimelineOutputPath)
+/// <param name="Product">Product whose releases are generated.</param>
+internal sealed record CommandLineOptions(string AtomOutputPath, string TimelineOutputPath, ProductKind Product)
 {
     /// <summary>
     /// Gets the default Atom output path.
@@ -13,7 +14,7 @@ internal sealed record CommandLineOptions(string AtomOutputPath, string Timeline
     /// <summary>
     /// Gets the command-line usage message.
     /// </summary>
-    public const string UsageText = "Usage: VisualStudioUpdateRSS [--output <path>] [--timeline-output <path>]";
+    public const string UsageText = "Usage: VisualStudioUpdateRSS [--product <visualstudio|vscode>] [--output <path>] [--timeline-output <path>]";
 
     /// <summary>
     /// Parses command-line arguments.
@@ -24,7 +25,21 @@ internal sealed record CommandLineOptions(string AtomOutputPath, string Timeline
     /// </returns>
     public static CommandLineOptions? Parse(string[] args)
     {
-        var atomOutputPath = GetOptionValue(args, "--output") ?? DefaultAtomOutputPath;
+        var productValue = GetOptionValue(args, "--product");
+        var product = productValue?.ToLowerInvariant() switch
+        {
+            null or "visualstudio" => ProductKind.VisualStudio,
+            "vscode" => ProductKind.VisualStudioCode,
+            _ => (ProductKind?)null,
+        };
+
+        if (product is null)
+        {
+            return null;
+        }
+
+        var atomOutputPath = GetOptionValue(args, "--output") ??
+            (product == ProductKind.VisualStudio ? DefaultAtomOutputPath : "vscode.atom");
         var timelineOutputPath = GetOptionValue(args, "--timeline-output") ?? GetDefaultTimelineOutputPath(atomOutputPath);
 
         if (string.IsNullOrWhiteSpace(atomOutputPath) || string.IsNullOrWhiteSpace(timelineOutputPath))
@@ -32,7 +47,7 @@ internal sealed record CommandLineOptions(string AtomOutputPath, string Timeline
             return null;
         }
 
-        return new CommandLineOptions(atomOutputPath, timelineOutputPath);
+        return new CommandLineOptions(atomOutputPath, timelineOutputPath, product.Value);
     }
 
     private static string GetDefaultTimelineOutputPath(string atomOutputPath)

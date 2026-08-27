@@ -17,13 +17,11 @@ internal static class Program
         }
 
         using var httpClient = HttpClientFactory.Create(MaxResponseBytes);
-        var parser = new ReleaseNotesParser(MaxResponseBytes);
+        var definition = FeedSources.GetDefinition(options.Product);
 
         try
         {
-            var entries = (await Task.WhenAll(
-                    FeedSources.All.Select(source => parser.LoadReleasesAsync(httpClient, source.Url, source.ProductName))))
-                .SelectMany(static releases => releases)
+            var entries = (await LoadReleasesAsync(httpClient, options.Product, definition))
                 .DistinctBy(static release => (release.Published, release.Title, release.Link))
                 .OrderByDescending(static release => release.Published)
                 .ThenByDescending(static release => release.Title, StringComparer.Ordinal)
@@ -37,11 +35,16 @@ internal static class Program
             await AtomFeedWriter.WriteAsync(
                 options.AtomOutputPath,
                 entries,
-                FeedSources.AtomTitle,
-                FeedSources.AtomId,
-                FeedSources.AtomSelfLink);
+                definition.AtomTitle,
+                definition.AtomId,
+                definition.AtomSelfLink);
 
-            await TimelineMarkdownWriter.WriteAsync(options.TimelineOutputPath, entries, FeedSources.ReadmeUrl);
+            await TimelineMarkdownWriter.WriteAsync(
+                options.TimelineOutputPath,
+                entries,
+                FeedSources.ReadmeUrl,
+                definition.TimelineTitle,
+                definition.TimelineChannels);
 
             Console.WriteLine(
                 $"Generated {entries.Length} entries in {Path.GetFullPath(options.AtomOutputPath)} and {Path.GetFullPath(options.TimelineOutputPath)}");
@@ -53,5 +56,21 @@ internal static class Program
             Console.Error.WriteLine($"Unable to generate release artifacts: {exception.Message}");
             return 1;
         }
+    }
+
+    private static async Task<IReadOnlyList<ReleaseEntry>> LoadReleasesAsync(
+        HttpClient httpClient,
+        ProductKind product,
+        FeedDefinition definition)
+    {
+        if (product == ProductKind.VisualStudioCode)
+        {
+            return await new VisualStudioCodeReleaseLoader(MaxResponseBytes).LoadReleasesAsync(httpClient);
+        }
+
+        var parser = new ReleaseNotesParser(MaxResponseBytes);
+        var releases = await Task.WhenAll(
+            definition.Sources.Select(source => parser.LoadReleasesAsync(httpClient, source.Url, source.ProductName)));
+        return releases.SelectMany(static sourceReleases => sourceReleases).ToArray();
     }
 }

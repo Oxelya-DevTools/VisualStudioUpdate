@@ -13,6 +13,18 @@ internal static class ReleaseChannelParser
         const string visualStudioPrefix = "Visual Studio 2026: ";
         const string insidersPrefix = "Visual Studio 2026 Insiders: ";
         const string buildToolsPrefix = "Visual Studio 2026 Build Tools: ";
+        const string visualStudioCodePrefix = "VS Code: ";
+        const string visualStudioCodeInsidersPrefix = "VS Code Insiders: ";
+
+        if (title.StartsWith(visualStudioCodeInsidersPrefix, StringComparison.Ordinal))
+        {
+            return ("VS Code Insiders", title[visualStudioCodeInsidersPrefix.Length..]);
+        }
+
+        if (title.StartsWith(visualStudioCodePrefix, StringComparison.Ordinal))
+        {
+            return ("VS Code", title[visualStudioCodePrefix.Length..]);
+        }
 
         if (title.StartsWith(buildToolsPrefix, StringComparison.Ordinal))
         {

@@ -12,7 +12,14 @@ internal static class TimelineMarkdownWriter
     /// <param name="outputPath">Target file path.</param>
     /// <param name="entries">Release entries used for timeline and table sections.</param>
     /// <param name="readmeUrl">Repository README URL.</param>
-    public static async Task WriteAsync(string outputPath, IReadOnlyList<ReleaseEntry> entries, string readmeUrl)
+    /// <param name="timelineTitle">Timeline document and Mermaid chart title.</param>
+    /// <param name="channels">Channels included in the Mermaid chart.</param>
+    public static async Task WriteAsync(
+        string outputPath,
+        IReadOnlyList<ReleaseEntry> entries,
+        string readmeUrl,
+        string timelineTitle,
+        IReadOnlyList<TimelineChannel> channels)
     {
         var fullPath = Path.GetFullPath(outputPath);
         var directory = Path.GetDirectoryName(fullPath);
@@ -28,7 +35,7 @@ internal static class TimelineMarkdownWriter
         var timelineEndExclusive = firstQuarterStart.AddMonths(6);
 
         var builder = new StringBuilder();
-        builder.AppendLine("# Visual Studio 2026 Timeline");
+        builder.AppendLine($"# {timelineTitle}");
         builder.AppendLine();
         builder.AppendLine($"Updated: {latestPublished:yyyy-MM-ddTHH:mm:ss.fffffffK} (UTC)");
         builder.AppendLine();
@@ -39,40 +46,23 @@ internal static class TimelineMarkdownWriter
         builder.AppendLine("```mermaid");
         builder.AppendLine("%%{init: {'theme':'default','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'taskTextColor': '#FFFFFF', 'taskBkgColor': '#22B8CF', 'taskBorderColor': '#22B8CF', 'doneTaskBkgColor': '#B05AA9', 'doneTaskBorderColor': '#B05AA9', 'activeTaskBkgColor': '#17BEBB', 'activeTaskBorderColor': '#17BEBB', 'critTaskBkgColor': '#FF6B57', 'critTaskBorderColor': '#FF6B57' }}}%%");
         builder.AppendLine("gantt");
-        builder.AppendLine("    title Product Development Roadmap");
+        builder.AppendLine($"    title {timelineTitle}");
         builder.AppendLine("    dateFormat  YYYY-MM-DD");
         builder.AppendLine("    axisFormat  %b");
         builder.AppendLine("    tickInterval 1month");
-        builder.AppendLine("    section VS 2026");
-        AppendChannelGanttSection(
-            builder,
-            entries,
-            "VS 2026",
-            "done",
-            firstQuarterStart,
-            timelineEndExclusive,
-            latestPublished,
-            usCulture);
-        builder.AppendLine("    section Insiders");
-        AppendChannelGanttSection(
-            builder,
-            entries,
-            "Insiders",
-            "active",
-            firstQuarterStart,
-            timelineEndExclusive,
-            latestPublished,
-            usCulture);
-        builder.AppendLine("    section Build Tools");
-        AppendChannelGanttSection(
-            builder,
-            entries,
-            "Build Tools",
-            "crit",
-            firstQuarterStart,
-            timelineEndExclusive,
-            latestPublished,
-            usCulture);
+        foreach (var channel in channels)
+        {
+            builder.AppendLine($"    section {channel.Name}");
+            AppendChannelGanttSection(
+                builder,
+                entries,
+                channel.Name,
+                channel.StyleTag,
+                firstQuarterStart,
+                timelineEndExclusive,
+                latestPublished,
+                usCulture);
+        }
         builder.AppendLine("```");
         builder.AppendLine();
         builder.AppendLine("## Releases");

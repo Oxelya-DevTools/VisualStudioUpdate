@@ -1,4 +1,4 @@
-name: Publish Visual Studio Atom feed
+name: Publish update feeds
 
 on:
   workflow_dispatch:
@@ -33,8 +33,10 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: Generate Atom feed
+      - name: Generate Visual Studio feed
         run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --output docs/visual-studio-2026.atom
+      - name: Generate Visual Studio Code feed
+        run: dotnet run --project VisualStudioUpdateRSS/VisualStudioUpdateRSS.csproj --configuration Release -- --product vscode --output docs/vscode.atom
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

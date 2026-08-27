@@ -1,8 +1,8 @@
 # VisualStudioUpdate
 
-[![Publish Visual Studio Atom feed](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml/badge.svg)](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml)
+[![Publish update feeds](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml/badge.svg)](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml)
 
-This .NET 10 console application generates an Atom feed and a Markdown timeline containing release updates documented for Visual Studio 2026, Visual Studio 2026 Insiders, and Visual Studio 2026 Build Tools.
+This .NET 10 console application generates Atom feeds and Markdown timelines for Visual Studio 2026 and Visual Studio Code. The VS Code feed includes GA releases and daily Insiders builds.
 
 The application reads the official Microsoft Learn release-note pages instead of the Visual Studio blog RSS feed, because the blog feed does not document every release:
 
@@ -15,6 +15,7 @@ Run the command from the repository root:
 
 ```powershell
 dotnet run --project .\VisualStudioUpdateRSS\VisualStudioUpdateRSS.csproj -- --output .\visual-studio-2026.atom
+dotnet run --project .\VisualStudioUpdateRSS\VisualStudioUpdateRSS.csproj -- --product vscode --output .\vscode.atom
 ```
 
 If you are not in the repository root, use the full path to the project and output file. The default output files are `visual-studio-2026.atom` and `visual-studio-2026.md` in the same folder. You can override the Markdown path with `--timeline-output <path>`.
@@ -28,6 +29,8 @@ You have two options:
 ```text
 https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.atom
 https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.md
+https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom
+https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.md
 ```
 
 2. Publish the feed in your own repository:
@@ -41,6 +44,8 @@ https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.md
 ```text
 https://YOUR-OWNER.github.io/YOUR-REPOSITORY/visual-studio-2026.atom
 https://YOUR-OWNER.github.io/YOUR-REPOSITORY/visual-studio-2026.md
+https://YOUR-OWNER.github.io/YOUR-REPOSITORY/vscode.atom
+https://YOUR-OWNER.github.io/YOUR-REPOSITORY/vscode.md
 ```
 
 The included `.github/workflows/publish-feed.yml` regenerates both files every day and keeps them updated automatically.
