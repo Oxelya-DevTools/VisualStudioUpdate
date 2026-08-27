@@ -11,7 +11,7 @@ on:
       - ".github/workflows/publish-feed.yml"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -47,6 +47,19 @@ jobs:
           test -s docs/vscode.md
           echo "Generated files:"
           ls -lh docs/visual-studio-2026.atom docs/visual-studio-2026.md docs/vscode.atom docs/vscode.md
+
+      - name: Commit generated feeds
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/visual-studio-2026.atom docs/visual-studio-2026.md docs/vscode.atom docs/vscode.md
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit."
+          else
+            git commit -m "Update generated release feeds"
+            git push
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
