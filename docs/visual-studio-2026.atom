@@ -2,17 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-08-26T09:08:00.0000000+00:00</updated>
+  <updated>2026-08-25T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
- <entry>
-    <title>Visual Studio 2026: Version 18.9.22</title>
-    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2</id>
-    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2" />
-    <published>2026-08-25T00:00:00.0000000+00:00</published>
-    <updated>2026-08-25T00:00:00.0000000+00:00</updated>
-    <summary>Released on August 25, 2026 . Top bug fixes From the community Includes additional platform hardening and secure-development improvements Normal Paste in Solution Explorer now creates a physical copy of files copied from Windows File Explorer instead of adding them as linked items</summary>
-  </entry>
-
   <entry>
     <title>Visual Studio 2026: Version 18.9.2</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2</id>

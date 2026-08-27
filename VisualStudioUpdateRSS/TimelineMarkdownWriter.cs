@@ -1,0 +1,153 @@
+using System.Globalization;
+using System.Text;
+
+/// <summary>
+/// Writes Markdown timeline output files with Mermaid diagrams.
+/// </summary>
+internal static class TimelineMarkdownWriter
+{
+    /// <summary>
+    /// Writes a Markdown timeline document.
+    /// </summary>
+    /// <param name="outputPath">Target file path.</param>
+    /// <param name="entries">Release entries used for timeline and table sections.</param>
+    /// <param name="readmeUrl">Repository README URL.</param>
+    public static async Task WriteAsync(string outputPath, IReadOnlyList<ReleaseEntry> entries, string readmeUrl)
+    {
+        var fullPath = Path.GetFullPath(outputPath);
+        var directory = Path.GetDirectoryName(fullPath);
+        if (!string.IsNullOrEmpty(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+
+        var usCulture = CultureInfo.GetCultureInfo("en-US");
+        var latestPublished = entries[0].Published;
+        var firstQuarterStart = GetQuarterStart(latestPublished);
+        var secondQuarterStart = firstQuarterStart.AddMonths(3);
+        var timelineEndExclusive = firstQuarterStart.AddMonths(6);
+
+        var builder = new StringBuilder();
+        builder.AppendLine("# Visual Studio 2026 Timeline");
+        builder.AppendLine();
+        builder.AppendLine($"Updated: {latestPublished:yyyy-MM-ddTHH:mm:ss.fffffffK} (UTC)");
+        builder.AppendLine();
+        builder.AppendLine("Roadmap window: **only months with published releases**.");
+        builder.AppendLine();
+        builder.AppendLine($"Repository README: [VisualStudioUpdate README]({readmeUrl})");
+        builder.AppendLine();
+        builder.AppendLine("```mermaid");
+        builder.AppendLine("%%{init: {'theme':'default','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'taskTextColor': '#FFFFFF', 'taskBkgColor': '#22B8CF', 'taskBorderColor': '#22B8CF', 'doneTaskBkgColor': '#B05AA9', 'doneTaskBorderColor': '#B05AA9', 'activeTaskBkgColor': '#17BEBB', 'activeTaskBorderColor': '#17BEBB', 'critTaskBkgColor': '#FF6B57', 'critTaskBorderColor': '#FF6B57' }}}%%");
+        builder.AppendLine("gantt");
+        builder.AppendLine("    title Product Development Roadmap");
+        builder.AppendLine("    dateFormat  YYYY-MM-DD");
+        builder.AppendLine("    axisFormat  %b");
+        builder.AppendLine("    tickInterval 1month");
+        builder.AppendLine("    section VS 2026");
+        AppendChannelGanttSection(
+            builder,
+            entries,
+            "VS 2026",
+            "done",
+            firstQuarterStart,
+            timelineEndExclusive,
+            latestPublished,
+            usCulture);
+        builder.AppendLine("    section Insiders");
+        AppendChannelGanttSection(
+            builder,
+            entries,
+            "Insiders",
+            "active",
+            firstQuarterStart,
+            timelineEndExclusive,
+            latestPublished,
+            usCulture);
+        builder.AppendLine("    section Build Tools");
+        AppendChannelGanttSection(
+            builder,
+            entries,
+            "Build Tools",
+            "crit",
+            firstQuarterStart,
+            timelineEndExclusive,
+            latestPublished,
+            usCulture);
+        builder.AppendLine("```");
+        builder.AppendLine();
+        builder.AppendLine("## Releases");
+        builder.AppendLine();
+        builder.AppendLine("| Date (UTC) | Channel | Version | Release notes |");
+        builder.AppendLine("| --- | --- | --- | --- |");
+
+        foreach (var entry in entries)
+        {
+            var (channel, version) = ReleaseChannelParser.GetChannelAndVersion(entry.Title);
+            builder.AppendLine(
+                $"| {entry.Published.UtcDateTime.ToString("yyyy-MM-dd", usCulture)} | {channel} | {EscapeTable(version)} | [Open]({entry.Link}) |");
+        }
+
+        await File.WriteAllTextAsync(fullPath, builder.ToString(), new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
+    }
+
+    private static void AppendChannelGanttSection(
+        StringBuilder builder,
+        IReadOnlyList<ReleaseEntry> entries,
+        string channel,
+        string styleTag,
+        DateTimeOffset firstQuarterStart,
+        DateTimeOffset timelineEndExclusive,
+        DateTimeOffset latestPublished,
+        CultureInfo usCulture)
+    {
+        var versionItems = entries
+            .Select(static entry =>
+            {
+                var (entryChannel, version) = ReleaseChannelParser.GetChannelAndVersion(entry.Title);
+                return new { Entry = entry, Channel = entryChannel, Version = NormalizeVersionLabel(version) };
+            })
+            .Where(item => string.Equals(item.Channel, channel, StringComparison.Ordinal))
+            .Where(item => item.Entry.Published >= firstQuarterStart && item.Entry.Published < timelineEndExclusive)
+            .GroupBy(item => item.Version, StringComparer.Ordinal)
+            .Select(static group => group
+                .OrderBy(item => item.Entry.Published)
+                .ThenBy(item => item.Entry.Title, StringComparer.Ordinal)
+                .First())
+            .OrderBy(item => item.Entry.Published)
+            .ThenBy(item => item.Version, StringComparer.Ordinal)
+            .ToArray();
+
+        if (versionItems.Length == 0)
+        {
+            builder.AppendLine($"    Planned updates : milestone, {channel.Replace(" ", string.Empty, StringComparison.Ordinal).ToLowerInvariant()}planned, {firstQuarterStart:yyyy-MM-dd}, 1d");
+            return;
+        }
+
+        for (var index = 0; index < versionItems.Length; index++)
+        {
+            var versionItem = versionItems[index];
+            var releaseDate = versionItem.Entry.Published;
+            var hasCurrent = releaseDate.UtcDateTime.Date == latestPublished.UtcDateTime.Date;
+            var currentMarker = hasCurrent ? " (current)" : string.Empty;
+            var label = $"{releaseDate.UtcDateTime.ToString("MMM dd", usCulture)} · {versionItem.Version}{currentMarker}";
+            var taskId = $"{channel.Replace(" ", string.Empty, StringComparison.Ordinal).ToLowerInvariant()}{releaseDate:yyyyMMdd}{index}";
+            builder.AppendLine($"    {label} : {styleTag}, {taskId}, {releaseDate:yyyy-MM-dd}, 10d");
+        }
+    }
+
+    private static DateTimeOffset GetQuarterStart(DateTimeOffset date)
+    {
+        var quarterStartMonth = ((date.Month - 1) / 3) * 3 + 1;
+        return new DateTimeOffset(date.Year, quarterStartMonth, 1, 0, 0, 0, TimeSpan.Zero);
+    }
+
+    private static string EscapeTable(string value)
+    {
+        return value.Replace("|", "\\|", StringComparison.Ordinal);
+    }
+
+    private static string NormalizeVersionLabel(string version)
+    {
+        return string.IsNullOrWhiteSpace(version) ? "Unlabeled release" : version.Trim();
+    }
+}

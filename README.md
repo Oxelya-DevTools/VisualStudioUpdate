@@ -2,7 +2,7 @@
 
 [![Publish Visual Studio Atom feed](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml/badge.svg)](https://github.com/Oxelya-DevTools/VisualStudioUpdate/actions/workflows/publish-feed.yml)
 
-This .NET 10 console application generates an Atom feed containing the release updates documented for Visual Studio 2026, Visual Studio 2026 Insiders, and Visual Studio 2026 Build Tools.
+This .NET 10 console application generates an Atom feed and a Markdown timeline containing release updates documented for Visual Studio 2026, Visual Studio 2026 Insiders, and Visual Studio 2026 Build Tools.
 
 The application reads the official Microsoft Learn release-note pages instead of the Visual Studio blog RSS feed, because the blog feed does not document every release:
 
@@ -17,16 +17,17 @@ Run the command from the repository root:
 dotnet run --project .\VisualStudioUpdateRSS\VisualStudioUpdateRSS.csproj -- --output .\visual-studio-2026.atom
 ```
 
-If you are not in the repository root, use the full path to the project and output file. The default output file is `visual-studio-2026.atom`. The generated Atom document can be added directly to an RSS/Atom reader.
+If you are not in the repository root, use the full path to the project and output file. The default output files are `visual-studio-2026.atom` and `visual-studio-2026.md` in the same folder. You can override the Markdown path with `--timeline-output <path>`.
 
 ## Use the public feed or host your own
 
 You have two options:
 
-1. Use the already published feed directly:
+1. Use the already published files directly:
 
 ```text
 https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.atom
+https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.md
 ```
 
 2. Publish the feed in your own repository:
@@ -39,6 +40,7 @@ https://oxelya-devtools.github.io/VisualStudioUpdate/visual-studio-2026.atom
 
 ```text
 https://YOUR-OWNER.github.io/YOUR-REPOSITORY/visual-studio-2026.atom
+https://YOUR-OWNER.github.io/YOUR-REPOSITORY/visual-studio-2026.md
 ```
 
-The included `.github/workflows/publish-feed.yml` regenerates the feed every day and keeps it updated automatically.
+The included `.github/workflows/publish-feed.yml` regenerates both files every day and keeps them updated automatically.
