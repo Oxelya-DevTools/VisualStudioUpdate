@@ -44,7 +44,7 @@ internal static class TimelineMarkdownWriter
         builder.AppendLine($"Repository README: [VisualStudioUpdate README]({readmeUrl})");
         builder.AppendLine();
         builder.AppendLine("```mermaid");
-        builder.AppendLine("%%{init: {'theme':'default','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'taskTextColor': '#FFFFFF', 'taskBkgColor': '#22B8CF', 'taskBorderColor': '#22B8CF', 'doneTaskBkgColor': '#B05AA9', 'doneTaskBorderColor': '#B05AA9', 'activeTaskBkgColor': '#17BEBB', 'activeTaskBorderColor': '#17BEBB', 'critTaskBkgColor': '#FF6B57', 'critTaskBorderColor': '#FF6B57' }}}%%");
+        builder.AppendLine("%%{init: {'theme':'dark','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'textColor': '#F3F4F6', 'titleTextColor': '#FFFFFF', 'taskTextColor': '#FFFFFF', 'taskTextLightColor': '#FFFFFF', 'taskTextOutsideColor': '#F3F4F6', 'taskBkgColor': '#0891B2', 'taskBorderColor': '#67E8F9', 'doneTaskBkgColor': '#9333A8', 'doneTaskBorderColor': '#F0ABFC', 'activeTaskBkgColor': '#0F766E', 'activeTaskBorderColor': '#5EEAD4', 'critTaskBkgColor': '#C2410C', 'critTaskBorderColor': '#FDBA74', 'sectionBkgColor': '#1F2937', 'altSectionBkgColor': '#111827', 'gridColor': '#4B5563', 'todayLineColor': '#F87171' }}}%%");
         builder.AppendLine("gantt");
         builder.AppendLine($"    title {timelineTitle}");
         builder.AppendLine("    dateFormat  YYYY-MM-DD");
