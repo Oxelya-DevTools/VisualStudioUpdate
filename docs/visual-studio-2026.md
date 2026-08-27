@@ -14,26 +14,26 @@ gantt
     axisFormat  %b
     tickInterval 1month
     section VS 2026
-    Jul 14 · July Update 18.8.0 : done, vs2026202607140, 2026-07-14, 10d
-    Jul 14 · Version 18.7.4 : done, vs2026202607141, 2026-07-14, 10d
-    Jul 22 · Version 18.8.1 : done, vs2026202607222, 2026-07-22, 10d
-    Jul 28 · Version 18.8.2 : done, vs2026202607283, 2026-07-28, 10d
-    Aug 11 · August Update 18.9.0 : done, vs2026202608114, 2026-08-11, 10d
-    Aug 11 · Version 18.8.3 : done, vs2026202608115, 2026-08-11, 10d
-    Aug 18 · Version 18.9.1 : done, vs2026202608186, 2026-08-18, 10d
-    Aug 25 · Version 18.9.2 (current) : done, vs2026202608257, 2026-08-25, 10d
+    Jul 14 · July Update 18.8.0 : done, vs2026202607140, 2026-07-14, 20d
+    Jul 14 · Version 18.7.4 : done, vs2026202607141, 2026-07-14, 20d
+    Jul 22 · Version 18.8.1 : done, vs2026202607222, 2026-07-22, 20d
+    Jul 28 · Version 18.8.2 : done, vs2026202607283, 2026-07-28, 20d
+    Aug 11 · August Update 18.9.0 : done, vs2026202608114, 2026-08-11, 20d
+    Aug 11 · Version 18.8.3 : done, vs2026202608115, 2026-08-11, 20d
+    Aug 18 · Version 18.9.1 : done, vs2026202608186, 2026-08-18, 20d
+    Aug 25 · Version 18.9.2 (current) : done, vs2026202608257, 2026-08-25, 20d
     section Insiders
-    Aug 18 · Version 12113.136 : active, insiders202608180, 2026-08-18, 10d
-    Aug 25 · Version 12120.281 (current) : active, insiders202608251, 2026-08-25, 10d
+    Aug 18 · Version 12113.136 : active, insiders202608180, 2026-08-18, 20d
+    Aug 25 · Version 12120.281 (current) : active, insiders202608251, 2026-08-25, 20d
     section Build Tools
-    Jul 14 · July Update 18.8.0 : crit, buildtools202607140, 2026-07-14, 10d
-    Jul 14 · Version 18.7.4 : crit, buildtools202607141, 2026-07-14, 10d
-    Jul 22 · Version 18.8.1 : crit, buildtools202607222, 2026-07-22, 10d
-    Jul 28 · Version 18.8.2 : crit, buildtools202607283, 2026-07-28, 10d
-    Aug 11 · August Update 18.9.0 : crit, buildtools202608114, 2026-08-11, 10d
-    Aug 11 · Version 18.8.3 : crit, buildtools202608115, 2026-08-11, 10d
-    Aug 18 · Version 18.9.1 : crit, buildtools202608186, 2026-08-18, 10d
-    Aug 25 · Version 18.9.2 (current) : crit, buildtools202608257, 2026-08-25, 10d
+    Jul 14 · July Update 18.8.0 : crit, buildtools202607140, 2026-07-14, 20d
+    Jul 14 · Version 18.7.4 : crit, buildtools202607141, 2026-07-14, 20d
+    Jul 22 · Version 18.8.1 : crit, buildtools202607222, 2026-07-22, 20d
+    Jul 28 · Version 18.8.2 : crit, buildtools202607283, 2026-07-28, 20d
+    Aug 11 · August Update 18.9.0 : crit, buildtools202608114, 2026-08-11, 20d
+    Aug 11 · Version 18.8.3 : crit, buildtools202608115, 2026-08-11, 20d
+    Aug 18 · Version 18.9.1 : crit, buildtools202608186, 2026-08-18, 20d
+    Aug 25 · Version 18.9.2 (current) : crit, buildtools202608257, 2026-08-25, 20d
 ```
 
 ## Releases

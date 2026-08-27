@@ -121,7 +121,7 @@ internal static class TimelineMarkdownWriter
             var currentMarker = hasCurrent ? " (current)" : string.Empty;
             var label = $"{releaseDate.UtcDateTime.ToString("MMM dd", usCulture)} · {versionItem.Version}{currentMarker}";
             var taskId = $"{channel.Replace(" ", string.Empty, StringComparison.Ordinal).ToLowerInvariant()}{releaseDate:yyyyMMdd}{index}";
-            builder.AppendLine($"    {label} : {styleTag}, {taskId}, {releaseDate:yyyy-MM-dd}, 10d");
+            builder.AppendLine($"    {label} : {styleTag}, {taskId}, {releaseDate:yyyy-MM-dd}, 20d");
         }
     }
 

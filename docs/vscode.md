@@ -14,21 +14,21 @@ gantt
     axisFormat  %b
     tickInterval 1month
     section VS Code
-    Jul 01 · Version 1.127.0 : done, vscode202607010, 2026-07-01, 10d
-    Jul 08 · Version 1.128.0 : done, vscode202607081, 2026-07-08, 10d
-    Jul 14 · Version 1.128.1 : done, vscode202607142, 2026-07-14, 10d
-    Jul 15 · Version 1.129.0 : done, vscode202607153, 2026-07-15, 10d
-    Jul 17 · Version 1.129.1 : done, vscode202607174, 2026-07-17, 10d
-    Jul 22 · Version 1.130.0 : done, vscode202607225, 2026-07-22, 10d
-    Jul 29 · Version 1.131.0 : done, vscode202607296, 2026-07-29, 10d
-    Aug 05 · Version 1.132.0 : done, vscode202608057, 2026-08-05, 10d
-    Aug 11 · Version 1.132.1 : done, vscode202608118, 2026-08-11, 10d
-    Aug 12 · Version 1.133.0 : done, vscode202608129, 2026-08-12, 10d
-    Aug 19 · Version 1.134.0 : done, vscode2026081910, 2026-08-19, 10d
-    Aug 26 · Version 1.135.0 : done, vscode2026082611, 2026-08-26, 10d
+    Jul 01 · Version 1.127.0 : done, vscode202607010, 2026-07-01, 20d
+    Jul 08 · Version 1.128.0 : done, vscode202607081, 2026-07-08, 20d
+    Jul 14 · Version 1.128.1 : done, vscode202607142, 2026-07-14, 20d
+    Jul 15 · Version 1.129.0 : done, vscode202607153, 2026-07-15, 20d
+    Jul 17 · Version 1.129.1 : done, vscode202607174, 2026-07-17, 20d
+    Jul 22 · Version 1.130.0 : done, vscode202607225, 2026-07-22, 20d
+    Jul 29 · Version 1.131.0 : done, vscode202607296, 2026-07-29, 20d
+    Aug 05 · Version 1.132.0 : done, vscode202608057, 2026-08-05, 20d
+    Aug 11 · Version 1.132.1 : done, vscode202608118, 2026-08-11, 20d
+    Aug 12 · Version 1.133.0 : done, vscode202608129, 2026-08-12, 20d
+    Aug 19 · Version 1.134.0 : done, vscode2026081910, 2026-08-19, 20d
+    Aug 26 · Version 1.135.0 : done, vscode2026082611, 2026-08-26, 20d
     section VS Code Insiders
-    Aug 26 · Build fb25c934 : active, vscodeinsiders202608260, 2026-08-26, 10d
-    Aug 27 · Build a3b089bd (current) : active, vscodeinsiders202608271, 2026-08-27, 10d
+    Aug 26 · Build fb25c934 : active, vscodeinsiders202608260, 2026-08-26, 20d
+    Aug 27 · Build a3b089bd (current) : active, vscodeinsiders202608271, 2026-08-27, 20d
 ```
 
 ## Releases
