@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-08-27T11:01:22.0000000+00:00</updated>
+  <updated>2026-08-27T13:27:36.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build a3b089bd</title>
-    <id>https://github.com/microsoft/vscode/commit/a3b089bdf6dd50bf85586c39b01f345628b25dfa</id>
-    <link href="https://github.com/microsoft/vscode/commit/a3b089bdf6dd50bf85586c39b01f345628b25dfa" />
-    <published>2026-08-27T11:01:22.0000000+00:00</published>
-    <updated>2026-08-27T11:01:22.0000000+00:00</updated>
-    <summary>Merge pull request #331934 from microsoft/chrmarti/bad-earthworm</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build fb25c934</title>
-    <id>https://github.com/microsoft/vscode/commit/fb25c93481a092cc5ce5dabfc0e2848f6009275e</id>
-    <link href="https://github.com/microsoft/vscode/commit/fb25c93481a092cc5ce5dabfc0e2848f6009275e" />
-    <published>2026-08-26T23:42:55.0000000+00:00</published>
-    <updated>2026-08-26T23:42:55.0000000+00:00</updated>
-    <summary>agentHost: temporarily disable retryable errors (#332839)</summary>
+    <title>VS Code Insiders: Build 883e9e13</title>
+    <id>https://github.com/microsoft/vscode/commit/883e9e13c1b0f823d5a2eb350314370d63622f0c</id>
+    <link href="https://github.com/microsoft/vscode/commit/883e9e13c1b0f823d5a2eb350314370d63622f0c" />
+    <published>2026-08-27T13:27:36.0000000+00:00</published>
+    <updated>2026-08-27T13:27:36.0000000+00:00</updated>
+    <summary>agentHost: don't tell the agent to reply-and-stop after create_session (#332926)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.135.0</title>
