@@ -7,7 +7,7 @@ Roadmap window: **only months with published releases**.
 Repository README: [VisualStudioUpdate README](https://github.com/Oxelya-DevTools/VisualStudioUpdate/blob/master/README.md)
 
 ```mermaid
-%%{init: {'theme':'dark','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'textColor': '#F3F4F6', 'titleTextColor': '#FFFFFF', 'taskTextColor': '#FFFFFF', 'taskTextLightColor': '#FFFFFF', 'taskTextOutsideColor': '#F3F4F6', 'taskBkgColor': '#0891B2', 'taskBorderColor': '#67E8F9', 'doneTaskBkgColor': '#9333A8', 'doneTaskBorderColor': '#F0ABFC', 'activeTaskBkgColor': '#0F766E', 'activeTaskBorderColor': '#5EEAD4', 'critTaskBkgColor': '#C2410C', 'critTaskBorderColor': '#FDBA74', 'sectionBkgColor': '#1F2937', 'altSectionBkgColor': '#111827', 'gridColor': '#4B5563', 'todayLineColor': '#F87171' }}}%%
+%%{init: {'theme':'dark','themeVariables': { 'fontFamily': 'Segoe UI', 'fontSize': '24px', 'textColor': '#F3F4F6', 'titleTextColor': '#FFFFFF', 'taskTextColor': '#111827', 'taskTextLightColor': '#111827', 'taskTextOutsideColor': '#F3F4F6', 'taskBkgColor': '#BAE6FD', 'taskBorderColor': '#0369A1', 'doneTaskBkgColor': '#E9D5FF', 'doneTaskBorderColor': '#7E22CE', 'activeTaskBkgColor': '#99F6E4', 'activeTaskBorderColor': '#0F766E', 'critTaskBkgColor': '#FED7AA', 'critTaskBorderColor': '#C2410C', 'sectionBkgColor': '#1F2937', 'altSectionBkgColor': '#111827', 'gridColor': '#4B5563', 'todayLineColor': '#F87171' }}}%%
 gantt
     title Visual Studio 2026 Timeline
     dateFormat  YYYY-MM-DD
