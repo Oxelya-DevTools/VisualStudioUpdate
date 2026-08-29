@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-08-28T17:15:23.0000000+00:00</updated>
+  <updated>2026-08-29T07:03:55.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build eb9db9d6</title>
-    <id>https://github.com/microsoft/vscode/commit/eb9db9d62704f6eb616891da6f0f856c467a983c</id>
-    <link href="https://github.com/microsoft/vscode/commit/eb9db9d62704f6eb616891da6f0f856c467a983c" />
-    <published>2026-08-28T17:15:23.0000000+00:00</published>
-    <updated>2026-08-28T17:15:23.0000000+00:00</updated>
-    <summary>sessions: add Automation history context menu actions (#333080)</summary>
+    <title>VS Code Insiders: Build abeda1b7</title>
+    <id>https://github.com/microsoft/vscode/commit/abeda1b76a671b6577b8f339eb2a2f28141ffe42</id>
+    <link href="https://github.com/microsoft/vscode/commit/abeda1b76a671b6577b8f339eb2a2f28141ffe42" />
+    <published>2026-08-29T07:03:55.0000000+00:00</published>
+    <updated>2026-08-29T07:03:55.0000000+00:00</updated>
+    <summary>Gate new Gemini Flash prompt guidance behind an experiment (Flash 3.6/3.7) (#333308)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 6834b15c</title>
+    <id>https://github.com/microsoft/vscode/commit/6834b15c38351f2187f4f4478d3d406923265fd1</id>
+    <link href="https://github.com/microsoft/vscode/commit/6834b15c38351f2187f4f4478d3d406923265fd1" />
+    <published>2026-08-28T23:08:44.0000000+00:00</published>
+    <updated>2026-08-28T23:08:44.0000000+00:00</updated>
+    <summary>Merge pull request #333271 from microsoft/connor4312/agent-host-connection-ownership</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.135.0</title>
