@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-08-29T07:03:55.0000000+00:00</updated>
+  <updated>2026-08-30T02:07:34.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build abeda1b7</title>
-    <id>https://github.com/microsoft/vscode/commit/abeda1b76a671b6577b8f339eb2a2f28141ffe42</id>
-    <link href="https://github.com/microsoft/vscode/commit/abeda1b76a671b6577b8f339eb2a2f28141ffe42" />
-    <published>2026-08-29T07:03:55.0000000+00:00</published>
-    <updated>2026-08-29T07:03:55.0000000+00:00</updated>
-    <summary>Gate new Gemini Flash prompt guidance behind an experiment (Flash 3.6/3.7) (#333308)</summary>
+    <title>VS Code Insiders: Build 004a1fbb</title>
+    <id>https://github.com/microsoft/vscode/commit/004a1fbb1658e61048b29d76e2ce380adfa18680</id>
+    <link href="https://github.com/microsoft/vscode/commit/004a1fbb1658e61048b29d76e2ce380adfa18680" />
+    <published>2026-08-30T02:07:34.0000000+00:00</published>
+    <updated>2026-08-30T02:07:34.0000000+00:00</updated>
+    <summary>update label and description. (#219949)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 3aa54039</title>
+    <id>https://github.com/microsoft/vscode/commit/3aa54039a0bec1bd4f9b428cdb202b4271bf22ef</id>
+    <link href="https://github.com/microsoft/vscode/commit/3aa54039a0bec1bd4f9b428cdb202b4271bf22ef" />
+    <published>2026-08-29T17:23:42.0000000+00:00</published>
+    <updated>2026-08-29T17:23:42.0000000+00:00</updated>
+    <summary>Allow ZIP selection for manually installed dictation models (#332998)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build 6834b15c</title>
@@ -19,6 +27,14 @@
     <published>2026-08-28T23:08:44.0000000+00:00</published>
     <updated>2026-08-28T23:08:44.0000000+00:00</updated>
     <summary>Merge pull request #333271 from microsoft/connor4312/agent-host-connection-ownership</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build cd429513</title>
+    <id>https://github.com/microsoft/vscode/commit/cd429513258458bcbe37b17fe714874197fe2adf</id>
+    <link href="https://github.com/microsoft/vscode/commit/cd429513258458bcbe37b17fe714874197fe2adf" />
+    <published>2026-08-26T19:36:02.0000000+00:00</published>
+    <updated>2026-08-26T19:36:02.0000000+00:00</updated>
+    <summary>Trim unified-completions comments to two lines</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.135.0</title>
