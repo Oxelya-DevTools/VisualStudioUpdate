@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-08-30T02:07:34.0000000+00:00 (UTC)
+Updated: 2026-08-31T09:34:06.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -28,18 +28,18 @@ gantt
     Aug 26 · Version 1.135.0 : done, vscode2026082611, 2026-08-26, 20d
     section VS Code Insiders
     Aug 26 · Build cd429513 : active, vscodeinsiders202608260, 2026-08-26, 20d
-    Aug 28 · Build 6834b15c : active, vscodeinsiders202608281, 2026-08-28, 20d
-    Aug 29 · Build 3aa54039 : active, vscodeinsiders202608292, 2026-08-29, 20d
-    Aug 30 · Build 004a1fbb (current) : active, vscodeinsiders202608303, 2026-08-30, 20d
+    Aug 29 · Build 3aa54039 : active, vscodeinsiders202608291, 2026-08-29, 20d
+    Aug 30 · Build 23f50094 : active, vscodeinsiders202608302, 2026-08-30, 20d
+    Aug 31 · Build 400d86be (current) : active, vscodeinsiders202608313, 2026-08-31, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-08-30 | VS Code Insiders | Build 004a1fbb | [Open](https://github.com/microsoft/vscode/commit/004a1fbb1658e61048b29d76e2ce380adfa18680) |
+| 2026-08-31 | VS Code Insiders | Build 400d86be | [Open](https://github.com/microsoft/vscode/commit/400d86be5f490c331817a72e85870f6337652574) |
+| 2026-08-30 | VS Code Insiders | Build 23f50094 | [Open](https://github.com/microsoft/vscode/commit/23f50094841f222bdd0e609fca3d72718048d297) |
 | 2026-08-29 | VS Code Insiders | Build 3aa54039 | [Open](https://github.com/microsoft/vscode/commit/3aa54039a0bec1bd4f9b428cdb202b4271bf22ef) |
-| 2026-08-28 | VS Code Insiders | Build 6834b15c | [Open](https://github.com/microsoft/vscode/commit/6834b15c38351f2187f4f4478d3d406923265fd1) |
 | 2026-08-26 | VS Code Insiders | Build cd429513 | [Open](https://github.com/microsoft/vscode/commit/cd429513258458bcbe37b17fe714874197fe2adf) |
 | 2026-08-26 | VS Code | Version 1.135.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.135.0) |
 | 2026-08-19 | VS Code | Version 1.134.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.134.0) |

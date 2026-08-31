@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-08-30T02:07:34.0000000+00:00</updated>
+  <updated>2026-08-31T09:34:06.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 004a1fbb</title>
-    <id>https://github.com/microsoft/vscode/commit/004a1fbb1658e61048b29d76e2ce380adfa18680</id>
-    <link href="https://github.com/microsoft/vscode/commit/004a1fbb1658e61048b29d76e2ce380adfa18680" />
-    <published>2026-08-30T02:07:34.0000000+00:00</published>
-    <updated>2026-08-30T02:07:34.0000000+00:00</updated>
-    <summary>update label and description. (#219949)</summary>
+    <title>VS Code Insiders: Build 400d86be</title>
+    <id>https://github.com/microsoft/vscode/commit/400d86be5f490c331817a72e85870f6337652574</id>
+    <link href="https://github.com/microsoft/vscode/commit/400d86be5f490c331817a72e85870f6337652574" />
+    <published>2026-08-31T09:34:06.0000000+00:00</published>
+    <updated>2026-08-31T09:34:06.0000000+00:00</updated>
+    <summary>fix: validate semantic token edit delete count before allocation (fixes #322571) (#322575)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 23f50094</title>
+    <id>https://github.com/microsoft/vscode/commit/23f50094841f222bdd0e609fca3d72718048d297</id>
+    <link href="https://github.com/microsoft/vscode/commit/23f50094841f222bdd0e609fca3d72718048d297" />
+    <published>2026-08-30T22:46:10.0000000+00:00</published>
+    <updated>2026-08-30T22:46:10.0000000+00:00</updated>
+    <summary>MXC upgrade (#332985)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build 3aa54039</title>
@@ -19,14 +27,6 @@
     <published>2026-08-29T17:23:42.0000000+00:00</published>
     <updated>2026-08-29T17:23:42.0000000+00:00</updated>
     <summary>Allow ZIP selection for manually installed dictation models (#332998)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 6834b15c</title>
-    <id>https://github.com/microsoft/vscode/commit/6834b15c38351f2187f4f4478d3d406923265fd1</id>
-    <link href="https://github.com/microsoft/vscode/commit/6834b15c38351f2187f4f4478d3d406923265fd1" />
-    <published>2026-08-28T23:08:44.0000000+00:00</published>
-    <updated>2026-08-28T23:08:44.0000000+00:00</updated>
-    <summary>Merge pull request #333271 from microsoft/connor4312/agent-host-connection-ownership</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build cd429513</title>
