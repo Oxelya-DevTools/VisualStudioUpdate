@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-01T10:54:34.0000000+00:00</updated>
+  <updated>2026-09-02T11:04:22.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build df2411cf</title>
-    <id>https://github.com/microsoft/vscode/commit/df2411cf7d8f2e0cfc79109a3bc8eaab2c69165b</id>
-    <link href="https://github.com/microsoft/vscode/commit/df2411cf7d8f2e0cfc79109a3bc8eaab2c69165b" />
-    <published>2026-09-01T10:54:34.0000000+00:00</published>
-    <updated>2026-09-01T10:54:34.0000000+00:00</updated>
-    <summary>agentHost: update bundled Codex SDK to 0.149.1 (#333739)</summary>
+    <title>VS Code Insiders: Build c3a0ee2b</title>
+    <id>https://github.com/microsoft/vscode/commit/c3a0ee2b9889e58a2640b16087e91ccbea8e2121</id>
+    <link href="https://github.com/microsoft/vscode/commit/c3a0ee2b9889e58a2640b16087e91ccbea8e2121" />
+    <published>2026-09-02T11:04:22.0000000+00:00</published>
+    <updated>2026-09-02T11:04:22.0000000+00:00</updated>
+    <summary>Refactor .monaco-icon-label styles to remove unnecessary gap and padding (#333960)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 735c7376</title>
-    <id>https://github.com/microsoft/vscode/commit/735c7376c1febaa709374e830fa9a2f0566c7092</id>
-    <link href="https://github.com/microsoft/vscode/commit/735c7376c1febaa709374e830fa9a2f0566c7092" />
-    <published>2026-08-31T23:56:00.0000000+00:00</published>
-    <updated>2026-08-31T23:56:00.0000000+00:00</updated>
-    <summary>Fix WSL resource links in Agent Host chat responses (#333635)</summary>
+    <title>VS Code Insiders: Build d5a3b39d</title>
+    <id>https://github.com/microsoft/vscode/commit/d5a3b39d9c9955527607ef4615c3e4117d1b2910</id>
+    <link href="https://github.com/microsoft/vscode/commit/d5a3b39d9c9955527607ef4615c3e4117d1b2910" />
+    <published>2026-09-01T23:39:21.0000000+00:00</published>
+    <updated>2026-09-01T23:39:21.0000000+00:00</updated>
+    <summary>agentHost: disable flaky Codex plugin discovery E2E (#333893)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.135.0</title>
