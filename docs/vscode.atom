@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-02T11:04:22.0000000+00:00</updated>
+  <updated>2026-09-03T10:53:46.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build c3a0ee2b</title>
-    <id>https://github.com/microsoft/vscode/commit/c3a0ee2b9889e58a2640b16087e91ccbea8e2121</id>
-    <link href="https://github.com/microsoft/vscode/commit/c3a0ee2b9889e58a2640b16087e91ccbea8e2121" />
-    <published>2026-09-02T11:04:22.0000000+00:00</published>
-    <updated>2026-09-02T11:04:22.0000000+00:00</updated>
-    <summary>Refactor .monaco-icon-label styles to remove unnecessary gap and padding (#333960)</summary>
+    <title>VS Code Insiders: Build 17badc0b</title>
+    <id>https://github.com/microsoft/vscode/commit/17badc0b96f4de7616123c4c8605bb1111a26c3a</id>
+    <link href="https://github.com/microsoft/vscode/commit/17badc0b96f4de7616123c4c8605bb1111a26c3a" />
+    <published>2026-09-03T10:53:46.0000000+00:00</published>
+    <updated>2026-09-03T10:53:46.0000000+00:00</updated>
+    <summary>Agents - Add badge for changed files in Changes tab (#334209)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build d5a3b39d</title>
-    <id>https://github.com/microsoft/vscode/commit/d5a3b39d9c9955527607ef4615c3e4117d1b2910</id>
-    <link href="https://github.com/microsoft/vscode/commit/d5a3b39d9c9955527607ef4615c3e4117d1b2910" />
-    <published>2026-09-01T23:39:21.0000000+00:00</published>
-    <updated>2026-09-01T23:39:21.0000000+00:00</updated>
-    <summary>agentHost: disable flaky Codex plugin discovery E2E (#333893)</summary>
+    <title>VS Code Insiders: Build 9a925701</title>
+    <id>https://github.com/microsoft/vscode/commit/9a9257010666f5e886b2e2b095fe9febd5a5c13c</id>
+    <link href="https://github.com/microsoft/vscode/commit/9a9257010666f5e886b2e2b095fe9febd5a5c13c" />
+    <published>2026-09-02T23:45:42.0000000+00:00</published>
+    <updated>2026-09-02T23:45:42.0000000+00:00</updated>
+    <summary>Surface sandbox model fallbacks and honour confirmation editability (#334133)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.136.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.136.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.136.0" />
+    <published>2026-09-02T16:18:16.0000000+00:00</published>
+    <updated>2026-09-02T16:18:16.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.136.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.135.0</title>
