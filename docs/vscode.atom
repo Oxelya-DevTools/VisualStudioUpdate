@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-03T10:53:46.0000000+00:00</updated>
+  <updated>2026-09-04T11:06:35.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 17badc0b</title>
-    <id>https://github.com/microsoft/vscode/commit/17badc0b96f4de7616123c4c8605bb1111a26c3a</id>
-    <link href="https://github.com/microsoft/vscode/commit/17badc0b96f4de7616123c4c8605bb1111a26c3a" />
-    <published>2026-09-03T10:53:46.0000000+00:00</published>
-    <updated>2026-09-03T10:53:46.0000000+00:00</updated>
-    <summary>Agents - Add badge for changed files in Changes tab (#334209)</summary>
+    <title>VS Code Insiders: Build dff3e355</title>
+    <id>https://github.com/microsoft/vscode/commit/dff3e35567aac71ababf252e08f6d20df17e99ae</id>
+    <link href="https://github.com/microsoft/vscode/commit/dff3e35567aac71ababf252e08f6d20df17e99ae" />
+    <published>2026-09-04T11:06:35.0000000+00:00</published>
+    <updated>2026-09-04T11:06:35.0000000+00:00</updated>
+    <summary>Agents - handle errors during branch checkout (#334452)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 9a925701</title>
-    <id>https://github.com/microsoft/vscode/commit/9a9257010666f5e886b2e2b095fe9febd5a5c13c</id>
-    <link href="https://github.com/microsoft/vscode/commit/9a9257010666f5e886b2e2b095fe9febd5a5c13c" />
-    <published>2026-09-02T23:45:42.0000000+00:00</published>
-    <updated>2026-09-02T23:45:42.0000000+00:00</updated>
-    <summary>Surface sandbox model fallbacks and honour confirmation editability (#334133)</summary>
+    <title>VS Code Insiders: Build 0758edee</title>
+    <id>https://github.com/microsoft/vscode/commit/0758edeec112d0d806e8005e4d2a3b1539e0d0b9</id>
+    <link href="https://github.com/microsoft/vscode/commit/0758edeec112d0d806e8005e4d2a3b1539e0d0b9" />
+    <published>2026-09-03T23:13:02.0000000+00:00</published>
+    <updated>2026-09-03T23:13:02.0000000+00:00</updated>
+    <summary>agentHost: classify inline chat telemetry (#334378)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.136.1</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.136.1</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.136.1" />
+    <published>2026-09-03T15:25:32.0000000+00:00</published>
+    <updated>2026-09-03T15:25:32.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.136.1.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.136.0</title>
@@ -243,13 +251,5 @@
     <published>2026-04-29T10:25:58.0000000+00:00</published>
     <updated>2026-04-29T10:25:58.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.118.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.117.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.117.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.117.0" />
-    <published>2026-04-22T10:45:03.0000000+00:00</published>
-    <updated>2026-04-22T10:45:03.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.117.0.</summary>
   </entry>
 </feed>
