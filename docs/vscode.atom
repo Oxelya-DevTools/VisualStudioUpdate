@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-05T03:29:25.0000000+00:00</updated>
+  <updated>2026-09-06T10:04:25.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build fc0a9e94</title>
-    <id>https://github.com/microsoft/vscode/commit/fc0a9e94576224c89cc08d390b38ab760a261f1f</id>
-    <link href="https://github.com/microsoft/vscode/commit/fc0a9e94576224c89cc08d390b38ab760a261f1f" />
-    <published>2026-09-05T03:29:25.0000000+00:00</published>
-    <updated>2026-09-05T03:29:25.0000000+00:00</updated>
-    <summary>sessions: remove duplicate workspace picker imports (#334689)</summary>
+    <title>VS Code Insiders: Build 814ab138</title>
+    <id>https://github.com/microsoft/vscode/commit/814ab138a8994ee8984c0acd6816ad77e2aa3cef</id>
+    <link href="https://github.com/microsoft/vscode/commit/814ab138a8994ee8984c0acd6816ad77e2aa3cef" />
+    <published>2026-09-06T10:04:25.0000000+00:00</published>
+    <updated>2026-09-06T10:04:25.0000000+00:00</updated>
+    <summary>agentHost: Fix sessions stuck in progress after subagent completion (#334781)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build bb2b1ffa</title>
+    <id>https://github.com/microsoft/vscode/commit/bb2b1ffa7f19bb1b6d2ab82422b93fe1079e178b</id>
+    <link href="https://github.com/microsoft/vscode/commit/bb2b1ffa7f19bb1b6d2ab82422b93fe1079e178b" />
+    <published>2026-09-05T22:08:12.0000000+00:00</published>
+    <updated>2026-09-05T22:08:12.0000000+00:00</updated>
+    <summary>policy: preserve managed sandbox force-on for Agent Host routing (#334654)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build 42b37b7a</title>
@@ -19,14 +27,6 @@
     <published>2026-09-04T23:55:24.0000000+00:00</published>
     <updated>2026-09-04T23:55:24.0000000+00:00</updated>
     <summary>sessions: redesign unified workspace picker (#334591)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 105fc025</title>
-    <id>https://github.com/microsoft/vscode/commit/105fc025e6b644cba51c3660c6c085b1b1717b43</id>
-    <link href="https://github.com/microsoft/vscode/commit/105fc025e6b644cba51c3660c6c085b1b1717b43" />
-    <published>2026-09-03T21:34:01.0000000+00:00</published>
-    <updated>2026-09-03T21:34:01.0000000+00:00</updated>
-    <summary>Fix Multi Diff debug command in Agents window</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.136.1</title>
