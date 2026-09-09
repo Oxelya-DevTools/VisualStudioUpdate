@@ -1,6 +1,6 @@
 # Visual Studio 2026 Timeline
 
-Updated: 2026-08-25T00:00:00.0000000+00:00 (UTC)
+Updated: 2026-09-08T00:00:00.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -21,10 +21,11 @@ gantt
     Aug 11 · August Update 18.9.0 : done, vs2026202608114, 2026-08-11, 20d
     Aug 11 · Version 18.8.3 : done, vs2026202608115, 2026-08-11, 20d
     Aug 18 · Version 18.9.1 : done, vs2026202608186, 2026-08-18, 20d
-    Aug 25 · Version 18.9.2 (current) : done, vs2026202608257, 2026-08-25, 20d
+    Aug 25 · Version 18.9.2 : done, vs2026202608257, 2026-08-25, 20d
+    Sep 08 · September Update 18.10.0 (current) : done, vs2026202609088, 2026-09-08, 20d
+    Sep 08 · Version 18.9.3 (current) : done, vs2026202609089, 2026-09-08, 20d
     section Insiders
-    Aug 18 · Version 12113.136 : active, insiders202608180, 2026-08-18, 20d
-    Aug 25 · Version 12120.281 (current) : active, insiders202608251, 2026-08-25, 20d
+    Planned updates : milestone, insidersplanned, 2026-07-01, 1d
     section Build Tools
     Jul 14 · July Update 18.8.0 : crit, buildtools202607140, 2026-07-14, 20d
     Jul 14 · Version 18.7.4 : crit, buildtools202607141, 2026-07-14, 20d
@@ -33,18 +34,22 @@ gantt
     Aug 11 · August Update 18.9.0 : crit, buildtools202608114, 2026-08-11, 20d
     Aug 11 · Version 18.8.3 : crit, buildtools202608115, 2026-08-11, 20d
     Aug 18 · Version 18.9.1 : crit, buildtools202608186, 2026-08-18, 20d
-    Aug 25 · Version 18.9.2 (current) : crit, buildtools202608257, 2026-08-25, 20d
+    Aug 25 · Version 18.9.2 : crit, buildtools202608257, 2026-08-25, 20d
+    Sep 08 · September Update 18.10.0 (current) : crit, buildtools202609088, 2026-09-08, 20d
+    Sep 08 · Version 18.9.3 (current) : crit, buildtools202609089, 2026-09-08, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
+| 2026-09-08 | VS 2026 | Version 18.9.3 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.3) |
+| 2026-09-08 | VS 2026 | September Update 18.10.0 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#september-update-18100) |
+| 2026-09-08 | Build Tools | Version 18.9.3 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.9.3) |
+| 2026-09-08 | Build Tools | September Update 18.10.0 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#september-update-18100) |
 | 2026-08-25 | VS 2026 | Version 18.9.2 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.2) |
-| 2026-08-25 | Insiders | Version 12120.281 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12120.281) |
 | 2026-08-25 | Build Tools | Version 18.9.2 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.9.2) |
 | 2026-08-18 | VS 2026 | Version 18.9.1 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.9.1) |
-| 2026-08-18 | Insiders | Version 12113.136 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12113.136) |
 | 2026-08-18 | Build Tools | Version 18.9.1 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.9.1) |
 | 2026-08-11 | VS 2026 | Version 18.8.3 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.8.3) |
 | 2026-08-11 | VS 2026 | August Update 18.9.0 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#august-update-1890) |

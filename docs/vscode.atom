@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-08T10:54:09.0000000+00:00</updated>
+  <updated>2026-09-09T11:16:11.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 0611f3a8</title>
-    <id>https://github.com/microsoft/vscode/commit/0611f3a8d9a6e8456c75742d876bc1823b4e1df1</id>
-    <link href="https://github.com/microsoft/vscode/commit/0611f3a8d9a6e8456c75742d876bc1823b4e1df1" />
-    <published>2026-09-08T10:54:09.0000000+00:00</published>
-    <updated>2026-09-08T10:54:09.0000000+00:00</updated>
-    <summary>Remove experiment for enforcing proposals and just enforce (#335038)</summary>
+    <title>VS Code Insiders: Build 6a911dbe</title>
+    <id>https://github.com/microsoft/vscode/commit/6a911dbeadb933529500177aec2efbe221bc9a06</id>
+    <link href="https://github.com/microsoft/vscode/commit/6a911dbeadb933529500177aec2efbe221bc9a06" />
+    <published>2026-09-09T11:16:11.0000000+00:00</published>
+    <updated>2026-09-09T11:16:11.0000000+00:00</updated>
+    <summary>sessions: keep Agent Merge messages opaque over backgrounds (#335243)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build b26f843e</title>
-    <id>https://github.com/microsoft/vscode/commit/b26f843e546ae6d766fecdd225f5412269bfc952</id>
-    <link href="https://github.com/microsoft/vscode/commit/b26f843e546ae6d766fecdd225f5412269bfc952" />
-    <published>2026-09-07T23:30:34.0000000+00:00</published>
-    <updated>2026-09-07T23:30:34.0000000+00:00</updated>
-    <summary>[cherry-pick] chat: Reveal current Agent Host session in Agents Window (#334977)</summary>
+    <title>VS Code Insiders: Build 3e78986a</title>
+    <id>https://github.com/microsoft/vscode/commit/3e78986a04006d1ba3383b1a8b2246ef9585c79f</id>
+    <link href="https://github.com/microsoft/vscode/commit/3e78986a04006d1ba3383b1a8b2246ef9585c79f" />
+    <published>2026-09-08T23:59:44.0000000+00:00</published>
+    <updated>2026-09-08T23:59:44.0000000+00:00</updated>
+    <summary>agentHost: Add Copilot runtime regression E2E coverage (#334818)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.136.2</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.136.2</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.136.2" />
+    <published>2026-09-08T17:54:34.0000000+00:00</published>
+    <updated>2026-09-08T17:54:34.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.136.2.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.136.1</title>
