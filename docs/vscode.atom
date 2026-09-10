@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-09T11:16:11.0000000+00:00</updated>
+  <updated>2026-09-10T11:15:31.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 6a911dbe</title>
-    <id>https://github.com/microsoft/vscode/commit/6a911dbeadb933529500177aec2efbe221bc9a06</id>
-    <link href="https://github.com/microsoft/vscode/commit/6a911dbeadb933529500177aec2efbe221bc9a06" />
-    <published>2026-09-09T11:16:11.0000000+00:00</published>
-    <updated>2026-09-09T11:16:11.0000000+00:00</updated>
-    <summary>sessions: keep Agent Merge messages opaque over backgrounds (#335243)</summary>
+    <title>VS Code Insiders: Build e30ed382</title>
+    <id>https://github.com/microsoft/vscode/commit/e30ed3827f0950ec1a06f5e99c65fc0fce50e57d</id>
+    <link href="https://github.com/microsoft/vscode/commit/e30ed3827f0950ec1a06f5e99c65fc0fce50e57d" />
+    <published>2026-09-10T11:15:31.0000000+00:00</published>
+    <updated>2026-09-10T11:15:31.0000000+00:00</updated>
+    <summary>Refresh extension-relative resource roots when restoring webview panels (#335419)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 3e78986a</title>
-    <id>https://github.com/microsoft/vscode/commit/3e78986a04006d1ba3383b1a8b2246ef9585c79f</id>
-    <link href="https://github.com/microsoft/vscode/commit/3e78986a04006d1ba3383b1a8b2246ef9585c79f" />
-    <published>2026-09-08T23:59:44.0000000+00:00</published>
-    <updated>2026-09-08T23:59:44.0000000+00:00</updated>
-    <summary>agentHost: Add Copilot runtime regression E2E coverage (#334818)</summary>
+    <title>VS Code Insiders: Build 324e07d1</title>
+    <id>https://github.com/microsoft/vscode/commit/324e07d15719037092f9c28704c5ce3003fe143c</id>
+    <link href="https://github.com/microsoft/vscode/commit/324e07d15719037092f9c28704c5ce3003fe143c" />
+    <published>2026-09-09T23:55:45.0000000+00:00</published>
+    <updated>2026-09-09T23:55:45.0000000+00:00</updated>
+    <summary>chat: Keep MCP row actions synchronized with current server state</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.137.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.137.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.137.0" />
+    <published>2026-09-09T15:32:58.0000000+00:00</published>
+    <updated>2026-09-09T15:32:58.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.137.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.136.2</title>
@@ -251,13 +259,5 @@
     <published>2026-04-30T19:05:15.0000000+00:00</published>
     <updated>2026-04-30T19:05:15.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.118.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.118.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.118.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.118.0" />
-    <published>2026-04-29T10:25:58.0000000+00:00</published>
-    <updated>2026-04-29T10:25:58.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.118.0.</summary>
   </entry>
 </feed>
