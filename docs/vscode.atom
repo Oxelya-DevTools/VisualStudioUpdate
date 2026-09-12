@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-11T11:02:46.0000000+00:00</updated>
+  <updated>2026-09-12T01:14:09.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 0dbebd2c</title>
-    <id>https://github.com/microsoft/vscode/commit/0dbebd2ca3aa7c3e3c35fa8872c50abbd50518cb</id>
-    <link href="https://github.com/microsoft/vscode/commit/0dbebd2ca3aa7c3e3c35fa8872c50abbd50518cb" />
-    <published>2026-09-11T11:02:46.0000000+00:00</published>
-    <updated>2026-09-11T11:02:46.0000000+00:00</updated>
-    <summary>Allow leaving PR comments in agents (#335648)</summary>
+    <title>VS Code Insiders: Build a8f49160</title>
+    <id>https://github.com/microsoft/vscode/commit/a8f49160195d9e967d2d51e8544dc895207518e7</id>
+    <link href="https://github.com/microsoft/vscode/commit/a8f49160195d9e967d2d51e8544dc895207518e7" />
+    <published>2026-09-12T01:14:09.0000000+00:00</published>
+    <updated>2026-09-12T01:14:09.0000000+00:00</updated>
+    <summary>Latex : update language configuration  (#332303)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 8014e6a0</title>
-    <id>https://github.com/microsoft/vscode/commit/8014e6a02f528de8e686463eb6fb2f8a756cf32f</id>
-    <link href="https://github.com/microsoft/vscode/commit/8014e6a02f528de8e686463eb6fb2f8a756cf32f" />
-    <published>2026-09-10T23:55:09.0000000+00:00</published>
-    <updated>2026-09-10T23:55:09.0000000+00:00</updated>
-    <summary>Bump xterm to 6.1.0-beta.304 (#335582)</summary>
+    <title>VS Code Insiders: Build 503d84ea</title>
+    <id>https://github.com/microsoft/vscode/commit/503d84ea5eacab2ee02fe9c994dc5e6664b87c19</id>
+    <link href="https://github.com/microsoft/vscode/commit/503d84ea5eacab2ee02fe9c994dc5e6664b87c19" />
+    <published>2026-09-11T23:49:12.0000000+00:00</published>
+    <updated>2026-09-11T23:49:12.0000000+00:00</updated>
+    <summary>Merge pull request #335860 from microsoft/agents/investigate-issue-335820-fix-tests</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.137.0</title>
