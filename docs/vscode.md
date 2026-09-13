@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-09-12T01:14:09.0000000+00:00 (UTC)
+Updated: 2026-09-12T23:50:04.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -32,14 +32,14 @@ gantt
     Sep 09 · Version 1.137.0 : done, vscode2026090915, 2026-09-09, 20d
     section VS Code Insiders
     Sep 11 · Build 503d84ea : active, vscodeinsiders202609110, 2026-09-11, 20d
-    Sep 12 · Build a8f49160 (current) : active, vscodeinsiders202609121, 2026-09-12, 20d
+    Sep 12 · Build 8e35945b (current) : active, vscodeinsiders202609121, 2026-09-12, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-09-12 | VS Code Insiders | Build a8f49160 | [Open](https://github.com/microsoft/vscode/commit/a8f49160195d9e967d2d51e8544dc895207518e7) |
+| 2026-09-12 | VS Code Insiders | Build 8e35945b | [Open](https://github.com/microsoft/vscode/commit/8e35945bae3f2b0b3d0276963281180f1ce10cb0) |
 | 2026-09-11 | VS Code Insiders | Build 503d84ea | [Open](https://github.com/microsoft/vscode/commit/503d84ea5eacab2ee02fe9c994dc5e6664b87c19) |
 | 2026-09-09 | VS Code | Version 1.137.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.137.0) |
 | 2026-09-08 | VS Code | Version 1.136.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.136.2) |

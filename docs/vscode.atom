@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-12T01:14:09.0000000+00:00</updated>
+  <updated>2026-09-12T23:50:04.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build a8f49160</title>
-    <id>https://github.com/microsoft/vscode/commit/a8f49160195d9e967d2d51e8544dc895207518e7</id>
-    <link href="https://github.com/microsoft/vscode/commit/a8f49160195d9e967d2d51e8544dc895207518e7" />
-    <published>2026-09-12T01:14:09.0000000+00:00</published>
-    <updated>2026-09-12T01:14:09.0000000+00:00</updated>
-    <summary>Latex : update language configuration  (#332303)</summary>
+    <title>VS Code Insiders: Build 8e35945b</title>
+    <id>https://github.com/microsoft/vscode/commit/8e35945bae3f2b0b3d0276963281180f1ce10cb0</id>
+    <link href="https://github.com/microsoft/vscode/commit/8e35945bae3f2b0b3d0276963281180f1ce10cb0" />
+    <published>2026-09-12T23:50:04.0000000+00:00</published>
+    <updated>2026-09-12T23:50:04.0000000+00:00</updated>
+    <summary>chat: reduce picker layout measurement work (#335977)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build 503d84ea</title>
