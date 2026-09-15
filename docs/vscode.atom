@@ -2,31 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-14T12:13:25.0000000+00:00</updated>
+  <updated>2026-09-15T11:28:47.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build b51b1b0b</title>
-    <id>https://github.com/microsoft/vscode/commit/b51b1b0b04002d1c6bfc3d88e8ec80f15299a6ac</id>
-    <link href="https://github.com/microsoft/vscode/commit/b51b1b0b04002d1c6bfc3d88e8ec80f15299a6ac" />
-    <published>2026-09-14T12:13:25.0000000+00:00</published>
-    <updated>2026-09-14T12:13:25.0000000+00:00</updated>
-    <summary>Remove redundant tslib bundle injection (#336122)</summary>
+    <title>VS Code Insiders: Build bb000da7</title>
+    <id>https://github.com/microsoft/vscode/commit/bb000da79d34c2d5baa3b2c26a5cd1012616977b</id>
+    <link href="https://github.com/microsoft/vscode/commit/bb000da79d34c2d5baa3b2c26a5cd1012616977b" />
+    <published>2026-09-15T11:28:47.0000000+00:00</published>
+    <updated>2026-09-15T11:28:47.0000000+00:00</updated>
+    <summary>Add enable/disable toggle for agent merge tool (#336256)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 3e8601c5</title>
-    <id>https://github.com/microsoft/vscode/commit/3e8601c5f63f5b2358e0fbbfb825fbbfd72cbe2b</id>
-    <link href="https://github.com/microsoft/vscode/commit/3e8601c5f63f5b2358e0fbbfb825fbbfd72cbe2b" />
-    <published>2026-09-13T21:23:17.0000000+00:00</published>
-    <updated>2026-09-13T21:23:17.0000000+00:00</updated>
-    <summary>Agents - refactor repository pickers so that all actions are in one toolbar (#336058)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 8e35945b</title>
-    <id>https://github.com/microsoft/vscode/commit/8e35945bae3f2b0b3d0276963281180f1ce10cb0</id>
-    <link href="https://github.com/microsoft/vscode/commit/8e35945bae3f2b0b3d0276963281180f1ce10cb0" />
-    <published>2026-09-12T23:50:04.0000000+00:00</published>
-    <updated>2026-09-12T23:50:04.0000000+00:00</updated>
-    <summary>chat: reduce picker layout measurement work (#335977)</summary>
+    <title>VS Code Insiders: Build 38246c08</title>
+    <id>https://github.com/microsoft/vscode/commit/38246c086c8a825ca90190749dd88df6effec257</id>
+    <link href="https://github.com/microsoft/vscode/commit/38246c086c8a825ca90190749dd88df6effec257" />
+    <published>2026-09-14T22:35:14.0000000+00:00</published>
+    <updated>2026-09-14T22:35:14.0000000+00:00</updated>
+    <summary>chat: Fix customization list corners, detail scrollbars, and row color (#335850)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.137.0</title>
