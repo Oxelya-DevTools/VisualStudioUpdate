@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-09-15T11:28:47.0000000+00:00 (UTC)
+Updated: 2026-09-16T11:01:00.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -30,17 +30,19 @@ gantt
     Sep 03 · Version 1.136.1 : done, vscode2026090313, 2026-09-03, 20d
     Sep 08 · Version 1.136.2 : done, vscode2026090814, 2026-09-08, 20d
     Sep 09 · Version 1.137.0 : done, vscode2026090915, 2026-09-09, 20d
+    Sep 16 · Version 1.138.0 (current) : done, vscode2026091616, 2026-09-16, 20d
     section VS Code Insiders
-    Sep 14 · Build 38246c08 : active, vscodeinsiders202609140, 2026-09-14, 20d
-    Sep 15 · Build bb000da7 (current) : active, vscodeinsiders202609151, 2026-09-15, 20d
+    Sep 15 · Build 632abec5 : active, vscodeinsiders202609150, 2026-09-15, 20d
+    Sep 16 · Build f80869ac (current) : active, vscodeinsiders202609161, 2026-09-16, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-09-15 | VS Code Insiders | Build bb000da7 | [Open](https://github.com/microsoft/vscode/commit/bb000da79d34c2d5baa3b2c26a5cd1012616977b) |
-| 2026-09-14 | VS Code Insiders | Build 38246c08 | [Open](https://github.com/microsoft/vscode/commit/38246c086c8a825ca90190749dd88df6effec257) |
+| 2026-09-16 | VS Code Insiders | Build f80869ac | [Open](https://github.com/microsoft/vscode/commit/f80869ac3889f66f437dcbc430b83755ff7d0807) |
+| 2026-09-16 | VS Code | Version 1.138.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.138.0) |
+| 2026-09-15 | VS Code Insiders | Build 632abec5 | [Open](https://github.com/microsoft/vscode/commit/632abec535785c5fd76dec5b8ceb2f4c53d8cfc3) |
 | 2026-09-09 | VS Code | Version 1.137.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.137.0) |
 | 2026-09-08 | VS Code | Version 1.136.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.136.2) |
 | 2026-09-03 | VS Code | Version 1.136.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.136.1) |
@@ -70,4 +72,3 @@ gantt
 | 2026-05-13 | VS Code | Version 1.120.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.120.0) |
 | 2026-05-12 | VS Code | Version 1.119.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.119.1) |
 | 2026-05-06 | VS Code | Version 1.119.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.119.0) |
-| 2026-04-30 | VS Code | Version 1.118.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.118.1) |
