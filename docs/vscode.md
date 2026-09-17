@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-09-16T11:01:00.0000000+00:00 (UTC)
+Updated: 2026-09-17T10:48:41.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -30,19 +30,19 @@ gantt
     Sep 03 · Version 1.136.1 : done, vscode2026090313, 2026-09-03, 20d
     Sep 08 · Version 1.136.2 : done, vscode2026090814, 2026-09-08, 20d
     Sep 09 · Version 1.137.0 : done, vscode2026090915, 2026-09-09, 20d
-    Sep 16 · Version 1.138.0 (current) : done, vscode2026091616, 2026-09-16, 20d
+    Sep 16 · Version 1.138.0 : done, vscode2026091616, 2026-09-16, 20d
     section VS Code Insiders
-    Sep 15 · Build 632abec5 : active, vscodeinsiders202609150, 2026-09-15, 20d
-    Sep 16 · Build f80869ac (current) : active, vscodeinsiders202609161, 2026-09-16, 20d
+    Sep 16 · Build a2f67035 : active, vscodeinsiders202609160, 2026-09-16, 20d
+    Sep 17 · Build 64cbf0ba (current) : active, vscodeinsiders202609171, 2026-09-17, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-09-16 | VS Code Insiders | Build f80869ac | [Open](https://github.com/microsoft/vscode/commit/f80869ac3889f66f437dcbc430b83755ff7d0807) |
+| 2026-09-17 | VS Code Insiders | Build 64cbf0ba | [Open](https://github.com/microsoft/vscode/commit/64cbf0ba8676e1e5c2331743e3b53051e60b6767) |
+| 2026-09-16 | VS Code Insiders | Build a2f67035 | [Open](https://github.com/microsoft/vscode/commit/a2f67035d5efaf16675905671a66593289e7f166) |
 | 2026-09-16 | VS Code | Version 1.138.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.138.0) |
-| 2026-09-15 | VS Code Insiders | Build 632abec5 | [Open](https://github.com/microsoft/vscode/commit/632abec535785c5fd76dec5b8ceb2f4c53d8cfc3) |
 | 2026-09-09 | VS Code | Version 1.137.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.137.0) |
 | 2026-09-08 | VS Code | Version 1.136.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.136.2) |
 | 2026-09-03 | VS Code | Version 1.136.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.136.1) |

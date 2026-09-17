@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-16T11:01:00.0000000+00:00</updated>
+  <updated>2026-09-17T10:48:41.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build f80869ac</title>
-    <id>https://github.com/microsoft/vscode/commit/f80869ac3889f66f437dcbc430b83755ff7d0807</id>
-    <link href="https://github.com/microsoft/vscode/commit/f80869ac3889f66f437dcbc430b83755ff7d0807" />
-    <published>2026-09-16T11:01:00.0000000+00:00</published>
-    <updated>2026-09-16T11:01:00.0000000+00:00</updated>
-    <summary>Merge pull request #335957 from microsoft/alexr00/proper-gull</summary>
+    <title>VS Code Insiders: Build 64cbf0ba</title>
+    <id>https://github.com/microsoft/vscode/commit/64cbf0ba8676e1e5c2331743e3b53051e60b6767</id>
+    <link href="https://github.com/microsoft/vscode/commit/64cbf0ba8676e1e5c2331743e3b53051e60b6767" />
+    <published>2026-09-17T10:48:41.0000000+00:00</published>
+    <updated>2026-09-17T10:48:41.0000000+00:00</updated>
+    <summary>Remove obsolete prompt files (#336542)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build a2f67035</title>
+    <id>https://github.com/microsoft/vscode/commit/a2f67035d5efaf16675905671a66593289e7f166</id>
+    <link href="https://github.com/microsoft/vscode/commit/a2f67035d5efaf16675905671a66593289e7f166" />
+    <published>2026-09-16T23:00:44.0000000+00:00</published>
+    <updated>2026-09-16T23:00:44.0000000+00:00</updated>
+    <summary>Toggle Copilot Dashboard Visibility with Clicks (#336213)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
@@ -19,14 +27,6 @@
     <published>2026-09-16T07:14:47.0000000+00:00</published>
     <updated>2026-09-16T07:14:47.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.138.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 632abec5</title>
-    <id>https://github.com/microsoft/vscode/commit/632abec535785c5fd76dec5b8ceb2f4c53d8cfc3</id>
-    <link href="https://github.com/microsoft/vscode/commit/632abec535785c5fd76dec5b8ceb2f4c53d8cfc3" />
-    <published>2026-09-15T23:52:42.0000000+00:00</published>
-    <updated>2026-09-15T23:52:42.0000000+00:00</updated>
-    <summary>sessions: keep Codicon confetti behind conversations (#336340)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.137.0</title>
