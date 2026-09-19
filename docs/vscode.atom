@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-18T10:58:15.0000000+00:00</updated>
+  <updated>2026-09-19T08:35:40.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 53e9983e</title>
-    <id>https://github.com/microsoft/vscode/commit/53e9983e61535999978c09e080fedfe3356309ed</id>
-    <link href="https://github.com/microsoft/vscode/commit/53e9983e61535999978c09e080fedfe3356309ed" />
-    <published>2026-09-18T10:58:15.0000000+00:00</published>
-    <updated>2026-09-18T10:58:15.0000000+00:00</updated>
-    <summary>migrate .vscode/mcp.json to .mcp.json (#336751)</summary>
+    <title>VS Code Insiders: Build d3c24c3c</title>
+    <id>https://github.com/microsoft/vscode/commit/d3c24c3c4d7efab36b37acb1e91d9502c0c35b28</id>
+    <link href="https://github.com/microsoft/vscode/commit/d3c24c3c4d7efab36b37acb1e91d9502c0c35b28" />
+    <published>2026-09-19T08:35:40.0000000+00:00</published>
+    <updated>2026-09-19T08:35:40.0000000+00:00</updated>
+    <summary>sessions: Compact the mark-as-done nudge after repeated use (#336769)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build eb93978f</title>
-    <id>https://github.com/microsoft/vscode/commit/eb93978fc565d250ec40de0f78393e5864a2f8b8</id>
-    <link href="https://github.com/microsoft/vscode/commit/eb93978fc565d250ec40de0f78393e5864a2f8b8" />
-    <published>2026-09-17T23:39:54.0000000+00:00</published>
-    <updated>2026-09-17T23:39:54.0000000+00:00</updated>
-    <summary>sessions: Close side pane with last quick chat tab (#336629)</summary>
+    <title>VS Code Insiders: Build de3a59e0</title>
+    <id>https://github.com/microsoft/vscode/commit/de3a59e0de970d3fd89eebc2912c1343a0963055</id>
+    <link href="https://github.com/microsoft/vscode/commit/de3a59e0de970d3fd89eebc2912c1343a0963055" />
+    <published>2026-09-18T23:27:22.0000000+00:00</published>
+    <updated>2026-09-18T23:27:22.0000000+00:00</updated>
+    <summary>automations: shorten overflow menu hover text (#336855)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
