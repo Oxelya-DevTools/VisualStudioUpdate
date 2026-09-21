@@ -2,31 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-20T10:06:59.0000000+00:00</updated>
+  <updated>2026-09-21T10:33:58.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 44825207</title>
-    <id>https://github.com/microsoft/vscode/commit/44825207bf4389c3bd17c92d3ec28cf784c324cc</id>
-    <link href="https://github.com/microsoft/vscode/commit/44825207bf4389c3bd17c92d3ec28cf784c324cc" />
-    <published>2026-09-20T10:06:59.0000000+00:00</published>
-    <updated>2026-09-20T10:06:59.0000000+00:00</updated>
-    <summary>Merge pull request #336719 from microsoft:agents/scan-my-logs-from-recent-code-insiders-sessions-c1998c0f</summary>
+    <title>VS Code Insiders: Build 94a39f4c</title>
+    <id>https://github.com/microsoft/vscode/commit/94a39f4cb65288f75dfeeb9a4aa0e7146244e33c</id>
+    <link href="https://github.com/microsoft/vscode/commit/94a39f4cb65288f75dfeeb9a4aa0e7146244e33c" />
+    <published>2026-09-21T10:33:58.0000000+00:00</published>
+    <updated>2026-09-21T10:33:58.0000000+00:00</updated>
+    <summary>Engineering - rework the Agents window tasks to use build-fast (#336990)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 018b839d</title>
-    <id>https://github.com/microsoft/vscode/commit/018b839d1b11f672c446fdf562166ec316816361</id>
-    <link href="https://github.com/microsoft/vscode/commit/018b839d1b11f672c446fdf562166ec316816361" />
-    <published>2026-09-19T22:57:05.0000000+00:00</published>
-    <updated>2026-09-19T22:57:05.0000000+00:00</updated>
-    <summary>ci: fix JSON integration test build setup (#336876)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build de3a59e0</title>
-    <id>https://github.com/microsoft/vscode/commit/de3a59e0de970d3fd89eebc2912c1343a0963055</id>
-    <link href="https://github.com/microsoft/vscode/commit/de3a59e0de970d3fd89eebc2912c1343a0963055" />
-    <published>2026-09-18T23:27:22.0000000+00:00</published>
-    <updated>2026-09-18T23:27:22.0000000+00:00</updated>
-    <summary>automations: shorten overflow menu hover text (#336855)</summary>
+    <title>VS Code Insiders: Build 66990ef1</title>
+    <id>https://github.com/microsoft/vscode/commit/66990ef15d170de812444d346a49c70f55d64836</id>
+    <link href="https://github.com/microsoft/vscode/commit/66990ef15d170de812444d346a49c70f55d64836" />
+    <published>2026-09-20T22:12:04.0000000+00:00</published>
+    <updated>2026-09-20T22:12:04.0000000+00:00</updated>
+    <summary>Merge origin/main into chrmarti/dev-container-preparation-progress</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
