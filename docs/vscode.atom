@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-21T10:33:58.0000000+00:00</updated>
+  <updated>2026-09-22T11:18:38.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 94a39f4c</title>
-    <id>https://github.com/microsoft/vscode/commit/94a39f4cb65288f75dfeeb9a4aa0e7146244e33c</id>
-    <link href="https://github.com/microsoft/vscode/commit/94a39f4cb65288f75dfeeb9a4aa0e7146244e33c" />
-    <published>2026-09-21T10:33:58.0000000+00:00</published>
-    <updated>2026-09-21T10:33:58.0000000+00:00</updated>
-    <summary>Engineering - rework the Agents window tasks to use build-fast (#336990)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 66990ef1</title>
-    <id>https://github.com/microsoft/vscode/commit/66990ef15d170de812444d346a49c70f55d64836</id>
-    <link href="https://github.com/microsoft/vscode/commit/66990ef15d170de812444d346a49c70f55d64836" />
-    <published>2026-09-20T22:12:04.0000000+00:00</published>
-    <updated>2026-09-20T22:12:04.0000000+00:00</updated>
-    <summary>Merge origin/main into chrmarti/dev-container-preparation-progress</summary>
+    <title>VS Code Insiders: Build b87fc448</title>
+    <id>https://github.com/microsoft/vscode/commit/b87fc44884075f1b735ccf51b021c315106f3a44</id>
+    <link href="https://github.com/microsoft/vscode/commit/b87fc44884075f1b735ccf51b021c315106f3a44" />
+    <published>2026-09-22T11:18:38.0000000+00:00</published>
+    <updated>2026-09-22T11:18:38.0000000+00:00</updated>
+    <summary>Merge pull request #337254 from mrleemurray/mrleemurray/middle-amaranth-sparrow</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
