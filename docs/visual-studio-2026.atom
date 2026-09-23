@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-09-15T00:00:00.0000000+00:00</updated>
+  <updated>2026-09-22T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.10.2</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.2</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.2" />
+    <published>2026-09-22T00:00:00.0000000+00:00</published>
+    <updated>2026-09-22T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 22, 2026 . Top bug fixes From the community Fixed an issue where solution folders (and their contents) could appear unavailable when opening a solution directly from the root of a drive or network-share. Feedback ticket</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12217.175</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12217.175</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12217.175" />
+    <published>2026-09-22T00:00:00.0000000+00:00</published>
+    <updated>2026-09-22T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 22, 2026 . Top bug fixes From the community Razor syntax classification, IntelliSense, diagnostics, completion, and navigation remain available throughout the Visual Studio session. Feedback ticket</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.10.2</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.10.2</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.10.2" />
+    <published>2026-09-22T00:00:00.0000000+00:00</published>
+    <updated>2026-09-22T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 22, 2026 . Top bug fixes From the community Fixed an issue where solution folders (and their contents) could appear unavailable when opening a solution directly from the root of a drive or network-share. Feedback ticket</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.10.1</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.1</id>

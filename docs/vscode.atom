@@ -2,15 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-22T11:18:38.0000000+00:00</updated>
+  <updated>2026-09-23T10:32:34.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build b87fc448</title>
-    <id>https://github.com/microsoft/vscode/commit/b87fc44884075f1b735ccf51b021c315106f3a44</id>
-    <link href="https://github.com/microsoft/vscode/commit/b87fc44884075f1b735ccf51b021c315106f3a44" />
-    <published>2026-09-22T11:18:38.0000000+00:00</published>
-    <updated>2026-09-22T11:18:38.0000000+00:00</updated>
-    <summary>Merge pull request #337254 from mrleemurray/mrleemurray/middle-amaranth-sparrow</summary>
+    <title>VS Code: Version 1.139.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.139.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.139.0" />
+    <published>2026-09-23T10:32:34.0000000+00:00</published>
+    <updated>2026-09-23T10:32:34.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.139.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 0896e62e</title>
+    <id>https://github.com/microsoft/vscode/commit/0896e62ebab6f42f24240a9ad72ab3147f7b297e</id>
+    <link href="https://github.com/microsoft/vscode/commit/0896e62ebab6f42f24240a9ad72ab3147f7b297e" />
+    <published>2026-09-23T10:05:00.0000000+00:00</published>
+    <updated>2026-09-23T10:05:00.0000000+00:00</updated>
+    <summary>Add privacy-safe Automations funnel telemetry (#337030)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 1fe7285a</title>
+    <id>https://github.com/microsoft/vscode/commit/1fe7285a1162756215a684ee702b16d0ce42bdb4</id>
+    <link href="https://github.com/microsoft/vscode/commit/1fe7285a1162756215a684ee702b16d0ce42bdb4" />
+    <published>2026-09-22T23:31:34.0000000+00:00</published>
+    <updated>2026-09-22T23:31:34.0000000+00:00</updated>
+    <summary>sessions: Restore sandbox sessions promptly on reload (#337354)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
@@ -243,13 +259,5 @@
     <published>2026-05-12T18:39:30.0000000+00:00</published>
     <updated>2026-05-12T18:39:30.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.119.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.119.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.119.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.119.0" />
-    <published>2026-05-06T07:47:39.0000000+00:00</published>
-    <updated>2026-05-06T07:47:39.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.119.0.</summary>
   </entry>
 </feed>
