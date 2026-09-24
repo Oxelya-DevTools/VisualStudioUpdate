@@ -2,8 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-23T10:32:34.0000000+00:00</updated>
+  <updated>2026-09-24T10:33:00.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
+  <entry>
+    <title>VS Code Insiders: Build 7d05ee07</title>
+    <id>https://github.com/microsoft/vscode/commit/7d05ee0755a3f69d4c72f1799c5e7863cb48a2f7</id>
+    <link href="https://github.com/microsoft/vscode/commit/7d05ee0755a3f69d4c72f1799c5e7863cb48a2f7" />
+    <published>2026-09-24T10:33:00.0000000+00:00</published>
+    <updated>2026-09-24T10:33:00.0000000+00:00</updated>
+    <summary>sessions: Mark cloud sessions started outside VS Code as external (#337674)</summary>
+  </entry>
   <entry>
     <title>VS Code: Version 1.139.0</title>
     <id>https://github.com/microsoft/vscode/releases/tag/1.139.0</id>
@@ -11,22 +19,6 @@
     <published>2026-09-23T10:32:34.0000000+00:00</published>
     <updated>2026-09-23T10:32:34.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.139.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 0896e62e</title>
-    <id>https://github.com/microsoft/vscode/commit/0896e62ebab6f42f24240a9ad72ab3147f7b297e</id>
-    <link href="https://github.com/microsoft/vscode/commit/0896e62ebab6f42f24240a9ad72ab3147f7b297e" />
-    <published>2026-09-23T10:05:00.0000000+00:00</published>
-    <updated>2026-09-23T10:05:00.0000000+00:00</updated>
-    <summary>Add privacy-safe Automations funnel telemetry (#337030)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 1fe7285a</title>
-    <id>https://github.com/microsoft/vscode/commit/1fe7285a1162756215a684ee702b16d0ce42bdb4</id>
-    <link href="https://github.com/microsoft/vscode/commit/1fe7285a1162756215a684ee702b16d0ce42bdb4" />
-    <published>2026-09-22T23:31:34.0000000+00:00</published>
-    <updated>2026-09-22T23:31:34.0000000+00:00</updated>
-    <summary>sessions: Restore sandbox sessions promptly on reload (#337354)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.138.0</title>
