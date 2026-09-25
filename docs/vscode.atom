@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-24T10:33:00.0000000+00:00</updated>
+  <updated>2026-09-25T11:40:10.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 7d05ee07</title>
-    <id>https://github.com/microsoft/vscode/commit/7d05ee0755a3f69d4c72f1799c5e7863cb48a2f7</id>
-    <link href="https://github.com/microsoft/vscode/commit/7d05ee0755a3f69d4c72f1799c5e7863cb48a2f7" />
-    <published>2026-09-24T10:33:00.0000000+00:00</published>
-    <updated>2026-09-24T10:33:00.0000000+00:00</updated>
-    <summary>sessions: Mark cloud sessions started outside VS Code as external (#337674)</summary>
+    <title>VS Code Insiders: Build 00234e63</title>
+    <id>https://github.com/microsoft/vscode/commit/00234e6396a2ae4897e8d97f85a2efc138498b59</id>
+    <link href="https://github.com/microsoft/vscode/commit/00234e6396a2ae4897e8d97f85a2efc138498b59" />
+    <published>2026-09-25T11:40:10.0000000+00:00</published>
+    <updated>2026-09-25T11:40:10.0000000+00:00</updated>
+    <summary>Fix non-compact layout issue in Sessions list (#337935)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.139.1</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.139.1</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.139.1" />
+    <published>2026-09-25T09:58:03.0000000+00:00</published>
+    <updated>2026-09-25T09:58:03.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.139.1.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.139.0</title>
@@ -243,13 +251,5 @@
     <published>2026-05-13T08:18:42.0000000+00:00</published>
     <updated>2026-05-13T08:18:42.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.120.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.119.1</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.119.1</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.119.1" />
-    <published>2026-05-12T18:39:30.0000000+00:00</published>
-    <updated>2026-05-12T18:39:30.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.119.1.</summary>
   </entry>
 </feed>
