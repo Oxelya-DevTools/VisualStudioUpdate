@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-25T11:40:10.0000000+00:00</updated>
+  <updated>2026-09-26T08:37:56.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 00234e63</title>
-    <id>https://github.com/microsoft/vscode/commit/00234e6396a2ae4897e8d97f85a2efc138498b59</id>
-    <link href="https://github.com/microsoft/vscode/commit/00234e6396a2ae4897e8d97f85a2efc138498b59" />
-    <published>2026-09-25T11:40:10.0000000+00:00</published>
-    <updated>2026-09-25T11:40:10.0000000+00:00</updated>
-    <summary>Fix non-compact layout issue in Sessions list (#337935)</summary>
+    <title>VS Code Insiders: Build 90da9001</title>
+    <id>https://github.com/microsoft/vscode/commit/90da900128e93064765cc94c989059265443b389</id>
+    <link href="https://github.com/microsoft/vscode/commit/90da900128e93064765cc94c989059265443b389" />
+    <published>2026-09-26T08:37:56.0000000+00:00</published>
+    <updated>2026-09-26T08:37:56.0000000+00:00</updated>
+    <summary>chat: unify subagent pills and fix tool rendering lifecycles (#338064)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build e9bbe9c4</title>
+    <id>https://github.com/microsoft/vscode/commit/e9bbe9c42aecf6d8488b8bd1b28d3721f237b7f9</id>
+    <link href="https://github.com/microsoft/vscode/commit/e9bbe9c42aecf6d8488b8bd1b28d3721f237b7f9" />
+    <published>2026-09-25T23:57:40.0000000+00:00</published>
+    <updated>2026-09-25T23:57:40.0000000+00:00</updated>
+    <summary>Merge branch 'main' into agents/mcp-workspace-copilot-format</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.139.1</title>
