@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-26T08:37:56.0000000+00:00</updated>
+  <updated>2026-09-27T02:14:24.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 90da9001</title>
-    <id>https://github.com/microsoft/vscode/commit/90da900128e93064765cc94c989059265443b389</id>
-    <link href="https://github.com/microsoft/vscode/commit/90da900128e93064765cc94c989059265443b389" />
-    <published>2026-09-26T08:37:56.0000000+00:00</published>
-    <updated>2026-09-26T08:37:56.0000000+00:00</updated>
-    <summary>chat: unify subagent pills and fix tool rendering lifecycles (#338064)</summary>
+    <title>VS Code Insiders: Build 43dd9070</title>
+    <id>https://github.com/microsoft/vscode/commit/43dd9070f75d527ab38035c0562acbfe9de4209b</id>
+    <link href="https://github.com/microsoft/vscode/commit/43dd9070f75d527ab38035c0562acbfe9de4209b" />
+    <published>2026-09-27T02:14:24.0000000+00:00</published>
+    <updated>2026-09-27T02:14:24.0000000+00:00</updated>
+    <summary>Avoid repeated full Copilot SDK session scans during metadata fallback (#338145)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 66a33c85</title>
+    <id>https://github.com/microsoft/vscode/commit/66a33c855b3d47016e629b510bb804b4549eefd8</id>
+    <link href="https://github.com/microsoft/vscode/commit/66a33c855b3d47016e629b510bb804b4549eefd8" />
+    <published>2026-09-26T23:38:23.0000000+00:00</published>
+    <updated>2026-09-26T23:38:23.0000000+00:00</updated>
+    <summary>sessions: restore new session controls over chat backgrounds (#338147)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build e9bbe9c4</title>
