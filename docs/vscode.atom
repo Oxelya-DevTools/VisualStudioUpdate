@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-28T13:45:49.0000000+00:00</updated>
+  <updated>2026-09-29T12:16:38.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 9c965cd4</title>
-    <id>https://github.com/microsoft/vscode/commit/9c965cd4f1c63f449a810d515ad47d276dc177aa</id>
-    <link href="https://github.com/microsoft/vscode/commit/9c965cd4f1c63f449a810d515ad47d276dc177aa" />
-    <published>2026-09-28T13:45:49.0000000+00:00</published>
-    <updated>2026-09-28T13:45:49.0000000+00:00</updated>
-    <summary>fix: memory leak in integrated browser inspector sessions (#338228)</summary>
+    <title>VS Code Insiders: Build 0c765281</title>
+    <id>https://github.com/microsoft/vscode/commit/0c765281311ac395364d4f81e727e64493e7783c</id>
+    <link href="https://github.com/microsoft/vscode/commit/0c765281311ac395364d4f81e727e64493e7783c" />
+    <published>2026-09-29T12:16:38.0000000+00:00</published>
+    <updated>2026-09-29T12:16:38.0000000+00:00</updated>
+    <summary>sessions: simplify external session onboarding (#338658)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.139.1</title>
