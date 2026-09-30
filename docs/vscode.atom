@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-09-29T12:16:38.0000000+00:00</updated>
+  <updated>2026-09-30T12:33:42.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 0c765281</title>
-    <id>https://github.com/microsoft/vscode/commit/0c765281311ac395364d4f81e727e64493e7783c</id>
-    <link href="https://github.com/microsoft/vscode/commit/0c765281311ac395364d4f81e727e64493e7783c" />
-    <published>2026-09-29T12:16:38.0000000+00:00</published>
-    <updated>2026-09-29T12:16:38.0000000+00:00</updated>
-    <summary>sessions: simplify external session onboarding (#338658)</summary>
+    <title>VS Code Insiders: Build 7b49a90c</title>
+    <id>https://github.com/microsoft/vscode/commit/7b49a90c6cca56444b5a847111c5248058073f65</id>
+    <link href="https://github.com/microsoft/vscode/commit/7b49a90c6cca56444b5a847111c5248058073f65" />
+    <published>2026-09-30T12:33:42.0000000+00:00</published>
+    <updated>2026-09-30T12:33:42.0000000+00:00</updated>
+    <summary>sessions: fix: focus canvas editor layout (#338887)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build bd991c73</title>
+    <id>https://github.com/microsoft/vscode/commit/bd991c73fbc9ed98bd416696e1e3b4c746e2c1d8</id>
+    <link href="https://github.com/microsoft/vscode/commit/bd991c73fbc9ed98bd416696e1e3b4c746e2c1d8" />
+    <published>2026-09-29T23:53:37.0000000+00:00</published>
+    <updated>2026-09-29T23:53:37.0000000+00:00</updated>
+    <summary>agentHost: Keep remote hosts alive while agents are running (#338392)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.139.1</title>

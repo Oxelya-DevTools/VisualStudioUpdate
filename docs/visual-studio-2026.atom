@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-09-22T00:00:00.0000000+00:00</updated>
+  <updated>2026-09-29T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.10.3</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.3</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.3" />
+    <published>2026-09-29T00:00:00.0000000+00:00</published>
+    <updated>2026-09-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 29, 2026 . Top bug fixes From the community Fixed an issue where Visual Studio could become unresponsive while unloading a project due to a stale designer component. Feedback ticket Fixed an issue where component changes could cause Visual Studio to crash after reloading the .NET Framework Windows Forms Designer.</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12224.323</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12224.323</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12224.323" />
+    <published>2026-09-29T00:00:00.0000000+00:00</published>
+    <updated>2026-09-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 29, 2026 . Top bug fixes From the community Fixed an issue where Visual Studio could become unresponsive while unloading a project due to a stale designer component. Feedback ticket Fixed an issue that could cause the GitHub Copilot C++ Build Performance Agent to fail during build analysis, improving its reliability. Fixed an issue where component changes could cause Visual Studio to crash after reloading the .NET Framework Windows Forms Designer.</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.10.3</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.10.3</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.10.3" />
+    <published>2026-09-29T00:00:00.0000000+00:00</published>
+    <updated>2026-09-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on September 29, 2026 . Top bug fixes From the community Fixed an issue where Visual Studio could become unresponsive while unloading a project due to a stale designer component. Feedback ticket Fixed an issue where component changes could cause Visual Studio to crash after reloading the .NET Framework Windows Forms Designer.</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.10.2</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.2</id>
