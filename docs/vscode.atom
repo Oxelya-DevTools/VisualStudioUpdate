@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-02T12:31:23.0000000+00:00</updated>
+  <updated>2026-10-03T10:47:30.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 067c1c2b</title>
-    <id>https://github.com/microsoft/vscode/commit/067c1c2b93989930185121fefb58830c54d2a4dd</id>
-    <link href="https://github.com/microsoft/vscode/commit/067c1c2b93989930185121fefb58830c54d2a4dd" />
-    <published>2026-10-02T12:31:23.0000000+00:00</published>
-    <updated>2026-10-02T12:31:23.0000000+00:00</updated>
-    <summary>Engineering - improve npm install scripts for better engineering loop (#339282)</summary>
+    <title>VS Code Insiders: Build 7f20cdad</title>
+    <id>https://github.com/microsoft/vscode/commit/7f20cdad4f4ab923272e91e330a7701c52706fc7</id>
+    <link href="https://github.com/microsoft/vscode/commit/7f20cdad4f4ab923272e91e330a7701c52706fc7" />
+    <published>2026-10-03T10:47:30.0000000+00:00</published>
+    <updated>2026-10-03T10:47:30.0000000+00:00</updated>
+    <summary>agent Host: Reduce redundant Git work in AH sessions (#339382)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 35787c9c</title>
+    <id>https://github.com/microsoft/vscode/commit/35787c9cb26727017e17ecb0387bcd0c62c1360d</id>
+    <link href="https://github.com/microsoft/vscode/commit/35787c9cb26727017e17ecb0387bcd0c62c1360d" />
+    <published>2026-10-02T23:57:58.0000000+00:00</published>
+    <updated>2026-10-02T23:57:58.0000000+00:00</updated>
+    <summary>agent host: refactor: adopt experimental AHP canvas channels (#337780)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.140.0</title>
