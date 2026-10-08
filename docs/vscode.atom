@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-07T13:22:36.0000000+00:00</updated>
+  <updated>2026-10-08T13:12:57.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 00cf5ac4</title>
-    <id>https://github.com/microsoft/vscode/commit/00cf5ac45d5d6b5a01565a2070fe8e3c30438512</id>
-    <link href="https://github.com/microsoft/vscode/commit/00cf5ac45d5d6b5a01565a2070fe8e3c30438512" />
-    <published>2026-10-07T13:22:36.0000000+00:00</published>
-    <updated>2026-10-07T13:22:36.0000000+00:00</updated>
-    <summary>agentHost: Allow sole connected client for workspace conversion (#340276)</summary>
+    <title>VS Code Insiders: Build d9870834</title>
+    <id>https://github.com/microsoft/vscode/commit/d98708349faa1cbf36e12eaa4c31abe6e120cf2e</id>
+    <link href="https://github.com/microsoft/vscode/commit/d98708349faa1cbf36e12eaa4c31abe6e120cf2e" />
+    <published>2026-10-08T13:12:57.0000000+00:00</published>
+    <updated>2026-10-08T13:12:57.0000000+00:00</updated>
+    <summary>Developer: Open Url should use external URI openers (#340479)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.141.0</title>
