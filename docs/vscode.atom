@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-08T13:12:57.0000000+00:00</updated>
+  <updated>2026-10-09T13:10:44.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build d9870834</title>
-    <id>https://github.com/microsoft/vscode/commit/d98708349faa1cbf36e12eaa4c31abe6e120cf2e</id>
-    <link href="https://github.com/microsoft/vscode/commit/d98708349faa1cbf36e12eaa4c31abe6e120cf2e" />
-    <published>2026-10-08T13:12:57.0000000+00:00</published>
-    <updated>2026-10-08T13:12:57.0000000+00:00</updated>
-    <summary>Developer: Open Url should use external URI openers (#340479)</summary>
+    <title>VS Code Insiders: Build 8538eb35</title>
+    <id>https://github.com/microsoft/vscode/commit/8538eb35631b8981a2b0268fc5a8394c8f7b7254</id>
+    <link href="https://github.com/microsoft/vscode/commit/8538eb35631b8981a2b0268fc5a8394c8f7b7254" />
+    <published>2026-10-09T13:10:44.0000000+00:00</published>
+    <updated>2026-10-09T13:10:44.0000000+00:00</updated>
+    <summary>Add viewColumn to external uri opener (#340716)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build c6e58649</title>
+    <id>https://github.com/microsoft/vscode/commit/c6e58649b811b6b8813fa71c1452d280f7159b50</id>
+    <link href="https://github.com/microsoft/vscode/commit/c6e58649b811b6b8813fa71c1452d280f7159b50" />
+    <published>2026-10-08T19:47:33.0000000+00:00</published>
+    <updated>2026-10-08T19:47:33.0000000+00:00</updated>
+    <summary>sessions: Distinguish unavailable sandbox guidance by requested state</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.141.0</title>
@@ -19,6 +27,14 @@
     <published>2026-10-07T11:01:16.0000000+00:00</published>
     <updated>2026-10-07T11:01:16.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.141.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build bf20b992</title>
+    <id>https://github.com/microsoft/vscode/commit/bf20b9928314663e1c06bb3b967ef2a368bdf7aa</id>
+    <link href="https://github.com/microsoft/vscode/commit/bf20b9928314663e1c06bb3b967ef2a368bdf7aa" />
+    <published>2026-10-07T09:04:20.0000000+00:00</published>
+    <updated>2026-10-07T09:04:20.0000000+00:00</updated>
+    <summary>sessions: Enable terminal sandboxing in Dev Containers</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.140.0</title>
