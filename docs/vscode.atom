@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-10T05:36:25.0000000+00:00</updated>
+  <updated>2026-10-11T04:00:10.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 95903124</title>
-    <id>https://github.com/microsoft/vscode/commit/959031245ebb1fe077e0d512e1397c0ae82006e4</id>
-    <link href="https://github.com/microsoft/vscode/commit/959031245ebb1fe077e0d512e1397c0ae82006e4" />
-    <published>2026-10-10T05:36:25.0000000+00:00</published>
-    <updated>2026-10-10T05:36:25.0000000+00:00</updated>
-    <summary>Guard GitHub authentication error notifications (#340826)</summary>
+    <title>VS Code Insiders: Build eef761e9</title>
+    <id>https://github.com/microsoft/vscode/commit/eef761e9628e777317a554114f0202a070e98f0b</id>
+    <link href="https://github.com/microsoft/vscode/commit/eef761e9628e777317a554114f0202a070e98f0b" />
+    <published>2026-10-11T04:00:10.0000000+00:00</published>
+    <updated>2026-10-11T04:00:10.0000000+00:00</updated>
+    <summary>agentHost: preserve shared GHE endpoints during account initialization (#340887)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build cc3fec88</title>
+    <id>https://github.com/microsoft/vscode/commit/cc3fec8846d0e678357e476fa611774da26d7e24</id>
+    <link href="https://github.com/microsoft/vscode/commit/cc3fec8846d0e678357e476fa611774da26d7e24" />
+    <published>2026-10-10T17:29:35.0000000+00:00</published>
+    <updated>2026-10-10T17:29:35.0000000+00:00</updated>
+    <summary>agentHost: add a read-only built-in Ask agent for Copilot (#340866)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build ec010535</title>
