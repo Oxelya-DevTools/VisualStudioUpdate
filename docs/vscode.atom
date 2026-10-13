@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-12T15:20:34.0000000+00:00</updated>
+  <updated>2026-10-13T14:03:43.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 70099f4a</title>
-    <id>https://github.com/microsoft/vscode/commit/70099f4a372100b354fbff15d205f76154c464a5</id>
-    <link href="https://github.com/microsoft/vscode/commit/70099f4a372100b354fbff15d205f76154c464a5" />
-    <published>2026-10-12T15:20:34.0000000+00:00</published>
-    <updated>2026-10-12T15:20:34.0000000+00:00</updated>
-    <summary>agentHost: update bundled Codex SDK to 0.160.0 (#340671)</summary>
+    <title>VS Code Insiders: Build e54f253d</title>
+    <id>https://github.com/microsoft/vscode/commit/e54f253d941c640cf61ee03647448258275a2f29</id>
+    <link href="https://github.com/microsoft/vscode/commit/e54f253d941c640cf61ee03647448258275a2f29" />
+    <published>2026-10-13T14:03:43.0000000+00:00</published>
+    <updated>2026-10-13T14:03:43.0000000+00:00</updated>
+    <summary>fix: guard Auto routing stream pushes against cancelled turns (fixes #341067) (#341077)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 48a76cac</title>
-    <id>https://github.com/microsoft/vscode/commit/48a76cacaa61545e481a605e1067486f8f1b656b</id>
-    <link href="https://github.com/microsoft/vscode/commit/48a76cacaa61545e481a605e1067486f8f1b656b" />
-    <published>2026-10-11T22:17:52.0000000+00:00</published>
-    <updated>2026-10-11T22:17:52.0000000+00:00</updated>
-    <summary>Rename Ensemble Intelligence to High and update tier descriptions (#340950)</summary>
+    <title>VS Code Insiders: Build 50c1ce0f</title>
+    <id>https://github.com/microsoft/vscode/commit/50c1ce0fdfd4f489e7cb9932eb044b513334b6aa</id>
+    <link href="https://github.com/microsoft/vscode/commit/50c1ce0fdfd4f489e7cb9932eb044b513334b6aa" />
+    <published>2026-10-12T23:54:55.0000000+00:00</published>
+    <updated>2026-10-12T23:54:55.0000000+00:00</updated>
+    <summary>Remove chat.subagents.defaultToAuto setting and experiment code (#341203)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.141.0</title>
