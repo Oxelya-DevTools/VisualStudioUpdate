@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-13T14:03:43.0000000+00:00</updated>
+  <updated>2026-10-14T11:29:34.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build e54f253d</title>
-    <id>https://github.com/microsoft/vscode/commit/e54f253d941c640cf61ee03647448258275a2f29</id>
-    <link href="https://github.com/microsoft/vscode/commit/e54f253d941c640cf61ee03647448258275a2f29" />
-    <published>2026-10-13T14:03:43.0000000+00:00</published>
-    <updated>2026-10-13T14:03:43.0000000+00:00</updated>
-    <summary>fix: guard Auto routing stream pushes against cancelled turns (fixes #341067) (#341077)</summary>
+    <title>VS Code Insiders: Build 0feedbf3</title>
+    <id>https://github.com/microsoft/vscode/commit/0feedbf3d9bac4e27e50d5475fe45336a67fbd7b</id>
+    <link href="https://github.com/microsoft/vscode/commit/0feedbf3d9bac4e27e50d5475fe45336a67fbd7b" />
+    <published>2026-10-14T11:29:34.0000000+00:00</published>
+    <updated>2026-10-14T11:29:34.0000000+00:00</updated>
+    <summary>agentHost: use Codex recencyAt for session modified time (#341516)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 50c1ce0f</title>
-    <id>https://github.com/microsoft/vscode/commit/50c1ce0fdfd4f489e7cb9932eb044b513334b6aa</id>
-    <link href="https://github.com/microsoft/vscode/commit/50c1ce0fdfd4f489e7cb9932eb044b513334b6aa" />
-    <published>2026-10-12T23:54:55.0000000+00:00</published>
-    <updated>2026-10-12T23:54:55.0000000+00:00</updated>
-    <summary>Remove chat.subagents.defaultToAuto setting and experiment code (#341203)</summary>
+    <title>VS Code Insiders: Build ebefbb79</title>
+    <id>https://github.com/microsoft/vscode/commit/ebefbb79e796cb086d9ad32e05b0e2f1105f1888</id>
+    <link href="https://github.com/microsoft/vscode/commit/ebefbb79e796cb086d9ad32e05b0e2f1105f1888" />
+    <published>2026-10-13T23:35:17.0000000+00:00</published>
+    <updated>2026-10-13T23:35:17.0000000+00:00</updated>
+    <summary>agentHost: prepare extension startup telemetry metadata (#341415)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.141.1</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.141.1</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.141.1" />
+    <published>2026-10-13T21:53:53.0000000+00:00</published>
+    <updated>2026-10-13T21:53:53.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.141.1.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.141.0</title>
@@ -251,13 +259,5 @@
     <published>2026-05-29T12:53:58.0000000+00:00</published>
     <updated>2026-05-29T12:53:58.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.122.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.122.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.122.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.122.0" />
-    <published>2026-05-28T08:32:40.0000000+00:00</published>
-    <updated>2026-05-28T08:32:40.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.122.0.</summary>
   </entry>
 </feed>
