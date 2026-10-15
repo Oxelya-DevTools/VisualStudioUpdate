@@ -2,23 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-14T11:29:34.0000000+00:00</updated>
+  <updated>2026-10-15T11:18:34.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 0feedbf3</title>
-    <id>https://github.com/microsoft/vscode/commit/0feedbf3d9bac4e27e50d5475fe45336a67fbd7b</id>
-    <link href="https://github.com/microsoft/vscode/commit/0feedbf3d9bac4e27e50d5475fe45336a67fbd7b" />
-    <published>2026-10-14T11:29:34.0000000+00:00</published>
-    <updated>2026-10-14T11:29:34.0000000+00:00</updated>
-    <summary>agentHost: use Codex recencyAt for session modified time (#341516)</summary>
+    <title>VS Code Insiders: Build 9ac22ae3</title>
+    <id>https://github.com/microsoft/vscode/commit/9ac22ae36165259e11720c2478b1e9a1beb52a62</id>
+    <link href="https://github.com/microsoft/vscode/commit/9ac22ae36165259e11720c2478b1e9a1beb52a62" />
+    <published>2026-10-15T11:18:34.0000000+00:00</published>
+    <updated>2026-10-15T11:18:34.0000000+00:00</updated>
+    <summary>chat: let language model providers contribute an icon for the model picker (#341578)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build ebefbb79</title>
-    <id>https://github.com/microsoft/vscode/commit/ebefbb79e796cb086d9ad32e05b0e2f1105f1888</id>
-    <link href="https://github.com/microsoft/vscode/commit/ebefbb79e796cb086d9ad32e05b0e2f1105f1888" />
-    <published>2026-10-13T23:35:17.0000000+00:00</published>
-    <updated>2026-10-13T23:35:17.0000000+00:00</updated>
-    <summary>agentHost: prepare extension startup telemetry metadata (#341415)</summary>
+    <title>VS Code Insiders: Build 47f2192f</title>
+    <id>https://github.com/microsoft/vscode/commit/47f2192f54e978366dd3dff31d7038eeb942330a</id>
+    <link href="https://github.com/microsoft/vscode/commit/47f2192f54e978366dd3dff31d7038eeb942330a" />
+    <published>2026-10-14T23:23:25.0000000+00:00</published>
+    <updated>2026-10-14T23:23:25.0000000+00:00</updated>
+    <summary>Fix failing session artifact removal tests (#341265)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.142.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.142.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.142.0" />
+    <published>2026-10-14T19:46:12.0000000+00:00</published>
+    <updated>2026-10-14T19:46:12.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.142.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.141.2</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.141.2</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.141.2" />
+    <published>2026-10-14T14:32:33.0000000+00:00</published>
+    <updated>2026-10-14T14:32:33.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.141.2.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.141.1</title>
@@ -243,21 +259,5 @@
     <published>2026-06-10T09:38:39.0000000+00:00</published>
     <updated>2026-06-10T09:38:39.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.123.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.123.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.123.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.123.0" />
-    <published>2026-06-05T08:50:41.0000000+00:00</published>
-    <updated>2026-06-05T08:50:41.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.123.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.122.1</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.122.1</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.122.1" />
-    <published>2026-05-29T12:53:58.0000000+00:00</published>
-    <updated>2026-05-29T12:53:58.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.122.1.</summary>
   </entry>
 </feed>
