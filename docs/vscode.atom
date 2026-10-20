@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-19T13:13:44.0000000+00:00</updated>
+  <updated>2026-10-20T11:20:45.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 2bebf35f</title>
-    <id>https://github.com/microsoft/vscode/commit/2bebf35ff9ad98cfa4cf807b42b2e8ce04cd5695</id>
-    <link href="https://github.com/microsoft/vscode/commit/2bebf35ff9ad98cfa4cf807b42b2e8ce04cd5695" />
-    <published>2026-10-19T13:13:44.0000000+00:00</published>
-    <updated>2026-10-19T13:13:44.0000000+00:00</updated>
-    <summary>sessions: stop chat header spinner once its own chat completes (#341981)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build aef4ede5</title>
-    <id>https://github.com/microsoft/vscode/commit/aef4ede5e4e20813885d9c5dd42c57c51e2d6b74</id>
-    <link href="https://github.com/microsoft/vscode/commit/aef4ede5e4e20813885d9c5dd42c57c51e2d6b74" />
-    <published>2026-10-18T23:48:22.0000000+00:00</published>
-    <updated>2026-10-18T23:48:22.0000000+00:00</updated>
-    <summary>Add component fixtures for the language status hover (#342446)</summary>
+    <title>VS Code Insiders: Build 90657836</title>
+    <id>https://github.com/microsoft/vscode/commit/90657836b7b947d57d5be87c8e0ed925358a36a9</id>
+    <link href="https://github.com/microsoft/vscode/commit/90657836b7b947d57d5be87c8e0ed925358a36a9" />
+    <published>2026-10-20T11:20:45.0000000+00:00</published>
+    <updated>2026-10-20T11:20:45.0000000+00:00</updated>
+    <summary>chat: await state changes instead of polling timers in chat service and plugin tests (#342807)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.142.0</title>
