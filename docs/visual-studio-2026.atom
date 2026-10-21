@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-10-13T00:00:00.0000000+00:00</updated>
+  <updated>2026-10-20T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.11.1</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.1</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.1" />
+    <published>2026-10-20T00:00:00.0000000+00:00</published>
+    <updated>2026-10-20T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 20, 2026 . Top bug fixes From the community Fixed issue debugging compose projects due to overeager failover to wslc Feedback ticket Updating the installer to include the latest servicing release of the 10.0.26100 Windows SDK (10.0.26100.9457) C++23 feature complete in IntelliSense minus modules support</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12316.00</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12316.00</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12316.00" />
+    <published>2026-10-20T00:00:00.0000000+00:00</published>
+    <updated>2026-10-20T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 20, 2026 . Top bug fixes From the community Fixed Copilot BYOM: Foundry gpt-6-astra fails with HTTP 400 when using reasoning and tools Feedback ticket Fixed Copilot AutoPilot (Manual) reports rejected Git tool call without prompt and no explanation Feedback ticket , Feedback ticket C++23 feature complete in IntelliSense minus modules support Updating the installer to include the latest servicing release of the 10.0.26100 Windows SDK (10.0.26100.9457) Fixed a connection issue for remote iOS support for .NET MAUI and .NET iOS projects</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.11.1</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.1</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.1" />
+    <published>2026-10-20T00:00:00.0000000+00:00</published>
+    <updated>2026-10-20T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 20, 2026 . Top bug fixes From the community Fixed issue debugging compose projects due to overeager failover to wslc Feedback ticket Updating the installer to include the latest servicing release of the 10.0.26100 Windows SDK (10.0.26100.9457) C++23 feature complete in IntelliSense minus modules support</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.10.4</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.10.4</id>
