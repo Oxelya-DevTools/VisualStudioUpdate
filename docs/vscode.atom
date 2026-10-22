@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-21T11:42:38.0000000+00:00</updated>
+  <updated>2026-10-22T11:48:56.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 1964d141</title>
-    <id>https://github.com/microsoft/vscode/commit/1964d141f4226eb4c05d29f746f0c74c894a8dfc</id>
-    <link href="https://github.com/microsoft/vscode/commit/1964d141f4226eb4c05d29f746f0c74c894a8dfc" />
-    <published>2026-10-21T11:42:38.0000000+00:00</published>
-    <updated>2026-10-21T11:42:38.0000000+00:00</updated>
-    <summary>editor: address empty-state CCR feedback (#343200)</summary>
+    <title>VS Code Insiders: Build 930c901a</title>
+    <id>https://github.com/microsoft/vscode/commit/930c901aded036c884445dc90cbf580813c4983f</id>
+    <link href="https://github.com/microsoft/vscode/commit/930c901aded036c884445dc90cbf580813c4983f" />
+    <published>2026-10-22T11:48:56.0000000+00:00</published>
+    <updated>2026-10-22T11:48:56.0000000+00:00</updated>
+    <summary>sessions: nest automatic sections inside custom groups (#343239)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build f3a13dfc</title>
+    <id>https://github.com/microsoft/vscode/commit/f3a13dfcecf38c05eff54f449aaaed23475de4fd</id>
+    <link href="https://github.com/microsoft/vscode/commit/f3a13dfcecf38c05eff54f449aaaed23475de4fd" />
+    <published>2026-10-21T15:01:50.0000000+00:00</published>
+    <updated>2026-10-21T15:01:50.0000000+00:00</updated>
+    <summary>sessions: nest automatic sections inside custom groups</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.142.0</title>
