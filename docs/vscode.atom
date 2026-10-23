@@ -2,23 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-22T11:48:56.0000000+00:00</updated>
+  <updated>2026-10-23T11:26:29.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 930c901a</title>
-    <id>https://github.com/microsoft/vscode/commit/930c901aded036c884445dc90cbf580813c4983f</id>
-    <link href="https://github.com/microsoft/vscode/commit/930c901aded036c884445dc90cbf580813c4983f" />
-    <published>2026-10-22T11:48:56.0000000+00:00</published>
-    <updated>2026-10-22T11:48:56.0000000+00:00</updated>
-    <summary>sessions: nest automatic sections inside custom groups (#343239)</summary>
+    <title>VS Code Insiders: Build d6e20fdc</title>
+    <id>https://github.com/microsoft/vscode/commit/d6e20fdc019aae0d6a9b69536a38cd3cb9bc5152</id>
+    <link href="https://github.com/microsoft/vscode/commit/d6e20fdc019aae0d6a9b69536a38cd3cb9bc5152" />
+    <published>2026-10-23T11:26:29.0000000+00:00</published>
+    <updated>2026-10-23T11:26:29.0000000+00:00</updated>
+    <summary>chore: bump electron@43.8.3 (#343490)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build f3a13dfc</title>
-    <id>https://github.com/microsoft/vscode/commit/f3a13dfcecf38c05eff54f449aaaed23475de4fd</id>
-    <link href="https://github.com/microsoft/vscode/commit/f3a13dfcecf38c05eff54f449aaaed23475de4fd" />
-    <published>2026-10-21T15:01:50.0000000+00:00</published>
-    <updated>2026-10-21T15:01:50.0000000+00:00</updated>
-    <summary>sessions: nest automatic sections inside custom groups</summary>
+    <title>VS Code: Version 1.143.1</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.143.1</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.143.1" />
+    <published>2026-10-22T23:04:14.0000000+00:00</published>
+    <updated>2026-10-22T23:04:14.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.143.1.</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.143.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.143.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.143.0" />
+    <published>2026-10-22T13:00:11.0000000+00:00</published>
+    <updated>2026-10-22T13:00:11.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.143.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.142.0</title>
@@ -243,21 +251,5 @@
     <published>2026-06-10T13:39:34.0000000+00:00</published>
     <updated>2026-06-10T13:39:34.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.124.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.123.2</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.123.2</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.123.2" />
-    <published>2026-06-10T09:39:44.0000000+00:00</published>
-    <updated>2026-06-10T09:39:44.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.123.2.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.123.1</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.123.1</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.123.1" />
-    <published>2026-06-10T09:38:39.0000000+00:00</published>
-    <updated>2026-06-10T09:38:39.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.123.1.</summary>
   </entry>
 </feed>

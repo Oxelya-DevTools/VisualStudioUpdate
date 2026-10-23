@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-10-22T11:48:56.0000000+00:00 (UTC)
+Updated: 2026-10-23T11:26:29.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -18,17 +18,19 @@ gantt
     Oct 13 · Version 1.141.1 : done, vscode202610131, 2026-10-13, 20d
     Oct 14 · Version 1.141.2 : done, vscode202610142, 2026-10-14, 20d
     Oct 14 · Version 1.142.0 : done, vscode202610143, 2026-10-14, 20d
+    Oct 22 · Version 1.143.0 : done, vscode202610224, 2026-10-22, 20d
+    Oct 22 · Version 1.143.1 : done, vscode202610225, 2026-10-22, 20d
     section VS Code Insiders
-    Oct 21 · Build f3a13dfc : active, vscodeinsiders202610210, 2026-10-21, 20d
-    Oct 22 · Build 930c901a (current) : active, vscodeinsiders202610221, 2026-10-22, 20d
+    Oct 23 · Build d6e20fdc (current) : active, vscodeinsiders202610230, 2026-10-23, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-10-22 | VS Code Insiders | Build 930c901a | [Open](https://github.com/microsoft/vscode/commit/930c901aded036c884445dc90cbf580813c4983f) |
-| 2026-10-21 | VS Code Insiders | Build f3a13dfc | [Open](https://github.com/microsoft/vscode/commit/f3a13dfcecf38c05eff54f449aaaed23475de4fd) |
+| 2026-10-23 | VS Code Insiders | Build d6e20fdc | [Open](https://github.com/microsoft/vscode/commit/d6e20fdc019aae0d6a9b69536a38cd3cb9bc5152) |
+| 2026-10-22 | VS Code | Version 1.143.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.143.1) |
+| 2026-10-22 | VS Code | Version 1.143.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.143.0) |
 | 2026-10-14 | VS Code | Version 1.142.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.142.0) |
 | 2026-10-14 | VS Code | Version 1.141.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.141.2) |
 | 2026-10-13 | VS Code | Version 1.141.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.141.1) |
@@ -57,5 +59,3 @@ gantt
 | 2026-06-17 | VS Code | Version 1.125.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.125.0) |
 | 2026-06-12 | VS Code | Version 1.124.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.124.2) |
 | 2026-06-10 | VS Code | Version 1.124.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.124.0) |
-| 2026-06-10 | VS Code | Version 1.123.2 | [Open](https://github.com/microsoft/vscode/releases/tag/1.123.2) |
-| 2026-06-10 | VS Code | Version 1.123.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.123.1) |
