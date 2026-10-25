@@ -2,23 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-24T10:17:29.0000000+00:00</updated>
+  <updated>2026-10-25T10:24:48.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 4ff5ad97</title>
-    <id>https://github.com/microsoft/vscode/commit/4ff5ad971b5bc474e5fc6ca8cf2386d30a85d3eb</id>
-    <link href="https://github.com/microsoft/vscode/commit/4ff5ad971b5bc474e5fc6ca8cf2386d30a85d3eb" />
-    <published>2026-10-24T10:17:29.0000000+00:00</published>
-    <updated>2026-10-24T10:17:29.0000000+00:00</updated>
-    <summary>sessions: keep group rename draft across list rerenders (#343774)</summary>
+    <title>VS Code Insiders: Build 4f383697</title>
+    <id>https://github.com/microsoft/vscode/commit/4f383697191fef7129052d5396d5709d5799934a</id>
+    <link href="https://github.com/microsoft/vscode/commit/4f383697191fef7129052d5396d5709d5799934a" />
+    <published>2026-10-25T10:24:48.0000000+00:00</published>
+    <updated>2026-10-25T10:24:48.0000000+00:00</updated>
+    <summary>chat: preserve dynamic provider labels in session hovers (#344090)</summary>
   </entry>
   <entry>
-    <title>VS Code Insiders: Build 1185503e</title>
-    <id>https://github.com/microsoft/vscode/commit/1185503ec4c5a6aa4fb1b9735d04131d76890c86</id>
-    <link href="https://github.com/microsoft/vscode/commit/1185503ec4c5a6aa4fb1b9735d04131d76890c86" />
-    <published>2026-10-23T23:18:10.0000000+00:00</published>
-    <updated>2026-10-23T23:18:10.0000000+00:00</updated>
-    <summary>workspaces: preserve remote Windows folder trust (#343931)</summary>
+    <title>VS Code Insiders: Build 86db3b69</title>
+    <id>https://github.com/microsoft/vscode/commit/86db3b69224f75a786f815684bc96fc0eb5d9300</id>
+    <link href="https://github.com/microsoft/vscode/commit/86db3b69224f75a786f815684bc96fc0eb5d9300" />
+    <published>2026-10-24T22:18:55.0000000+00:00</published>
+    <updated>2026-10-24T22:18:55.0000000+00:00</updated>
+    <summary>sessions: Improve Remotes search and tunnel sign-in (#344078)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.143.1</title>
