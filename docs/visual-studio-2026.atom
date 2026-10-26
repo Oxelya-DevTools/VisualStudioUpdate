@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-10-20T00:00:00.0000000+00:00</updated>
+  <updated>2026-10-25T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.11.2</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.2</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.2" />
+    <published>2026-10-25T00:00:00.0000000+00:00</published>
+    <updated>2026-10-25T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 25, 2026 . Top bug fixes From the community Updated IntelliSense error strings Security Advisory Notices Advisory CVE Description CVE-2026-102870 CVE-2026-102870 ASP.NET Core Blazor Remote Code Execution Vulnerability CVE-2026-70197 CVE-2026-70197 .NET Remote Code Execution Vulnerability CVE-2026-111497 CVE-2026-111497 Brotli Decoder Out-of-bounds Write Vulnerability Known Issue Visual Studio F5 fails to launch Blazor WebAssembly debug adapter</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12324.72</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12324.72</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12324.72" />
+    <published>2026-10-25T00:00:00.0000000+00:00</published>
+    <updated>2026-10-25T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 25, 2026 . This release includes an update to the bundled Node.js 24.22.1</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.11.2</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.2</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.2" />
+    <published>2026-10-25T00:00:00.0000000+00:00</published>
+    <updated>2026-10-25T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 25, 2026 . Top bug fixes From the community Updated IntelliSense error strings Security Advisory Notices Advisory CVE Description CVE-2026-102870 CVE-2026-102870 ASP.NET Core Blazor Remote Code Execution Vulnerability CVE-2026-70197 CVE-2026-70197 .NET Remote Code Execution Vulnerability CVE-2026-111497 CVE-2026-111497 Brotli Decoder Out-of-bounds Write Vulnerability Known Issue Visual Studio F5 fails to launch Blazor WebAssembly debug adapter</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.11.1</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.1</id>
