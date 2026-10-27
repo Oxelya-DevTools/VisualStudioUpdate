@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-26T13:01:27.0000000+00:00</updated>
+  <updated>2026-10-27T11:54:38.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 1a0f389d</title>
-    <id>https://github.com/microsoft/vscode/commit/1a0f389d1f109fba91ff6e2333b8fb3f6ced69ed</id>
-    <link href="https://github.com/microsoft/vscode/commit/1a0f389d1f109fba91ff6e2333b8fb3f6ced69ed" />
-    <published>2026-10-26T13:01:27.0000000+00:00</published>
-    <updated>2026-10-26T13:01:27.0000000+00:00</updated>
-    <summary>sessions: hide empty PR checks and show merge conflicts (#344260)</summary>
+    <title>VS Code Insiders: Build 30e1190e</title>
+    <id>https://github.com/microsoft/vscode/commit/30e1190ef1eccae48876e91bc462fa5ee08b5406</id>
+    <link href="https://github.com/microsoft/vscode/commit/30e1190ef1eccae48876e91bc462fa5ee08b5406" />
+    <published>2026-10-27T11:54:38.0000000+00:00</published>
+    <updated>2026-10-27T11:54:38.0000000+00:00</updated>
+    <summary>chat: Build a turn's changes summary lazily and keep it expanded when rebuilt (#344524)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build ed3d9c11</title>
+    <id>https://github.com/microsoft/vscode/commit/ed3d9c11647cf2d6c7b0e4f327fd1c7c5f0afc6e</id>
+    <link href="https://github.com/microsoft/vscode/commit/ed3d9c11647cf2d6c7b0e4f327fd1c7c5f0afc6e" />
+    <published>2026-10-26T23:27:15.0000000+00:00</published>
+    <updated>2026-10-26T23:27:15.0000000+00:00</updated>
+    <summary>Connect editor windows to workspace-configured remote agent hosts (#344139)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.143.1</title>
