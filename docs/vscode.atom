@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-28T12:40:02.0000000+00:00</updated>
+  <updated>2026-10-29T12:56:11.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 945115b0</title>
-    <id>https://github.com/microsoft/vscode/commit/945115b0bd6de5c6cecae797519310a254e18dcc</id>
-    <link href="https://github.com/microsoft/vscode/commit/945115b0bd6de5c6cecae797519310a254e18dcc" />
-    <published>2026-10-28T12:40:02.0000000+00:00</published>
-    <updated>2026-10-28T12:40:02.0000000+00:00</updated>
-    <summary>chat: bold artifact autopilot notice labels (#344734)</summary>
+    <title>VS Code Insiders: Build 310d8dee</title>
+    <id>https://github.com/microsoft/vscode/commit/310d8dee3ce083e45c021e23ed5b0dc25c6825eb</id>
+    <link href="https://github.com/microsoft/vscode/commit/310d8dee3ce083e45c021e23ed5b0dc25c6825eb" />
+    <published>2026-10-29T12:56:11.0000000+00:00</published>
+    <updated>2026-10-29T12:56:11.0000000+00:00</updated>
+    <summary>agentHost: show only failing checks in automatic Fix Checks requests (#344947)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.144.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.144.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.144.0" />
+    <published>2026-10-28T18:51:38.0000000+00:00</published>
+    <updated>2026-10-28T18:51:38.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.144.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.143.1</title>
@@ -243,13 +251,5 @@
     <published>2026-06-12T05:06:56.0000000+00:00</published>
     <updated>2026-06-12T05:06:56.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.124.2.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.124.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.124.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.124.0" />
-    <published>2026-06-10T13:39:34.0000000+00:00</published>
-    <updated>2026-06-10T13:39:34.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.124.0.</summary>
   </entry>
 </feed>
