@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-10-25T00:00:00.0000000+00:00</updated>
+  <updated>2026-10-29T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.11.3</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.3</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.3" />
+    <published>2026-10-29T00:00:00.0000000+00:00</published>
+    <updated>2026-10-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 29, 2026 . Security Advisory Notices Advisory CVE Description CVE-2026-92392 CVE-2026-92392 libcurl HTTP/2 Upload Use-after-free Vulnerability CVE-2026-111497 CVE-2026-111497 Brotli Decoder Out-of-bounds Write Vulnerability CVE-2026-118147 CVE-2026-118147 Visual Studio Certificate Validation Vulnerability</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12328.396</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12328.396</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12328.396" />
+    <published>2026-10-29T00:00:00.0000000+00:00</published>
+    <updated>2026-10-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 29, 2026 . Top bug fixes From the community Fix for Visual Studio Copilot single-file run fails with JsonException for file path Feedback ticket Fixed an issue where Copilot Chat requests using Auto Model could repeatedly fail with the error "Requested model not available for session" after certain models were deprecated. Auto Model now correctly selects an available model Feedback ticket Fixed Copilot Manage Models dialog no longer allows adding BYOM models Feedback ticket Copilot Code review causes crash when cliked on output hyperlinks Feedback ticket Updated IntelliSense error strings</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.11.3</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.3</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.3" />
+    <published>2026-10-29T00:00:00.0000000+00:00</published>
+    <updated>2026-10-29T00:00:00.0000000+00:00</updated>
+    <summary>Released on October 29, 2026 . Security Advisory Notices Advisory CVE Description CVE-2026-92392 CVE-2026-92392 libcurl HTTP/2 Upload Use-after-free Vulnerability CVE-2026-111497 CVE-2026-111497 Brotli Decoder Out-of-bounds Write Vulnerability CVE-2026-118147 CVE-2026-118147 Visual Studio Certificate Validation Vulnerability</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.11.2</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.2</id>

@@ -1,6 +1,6 @@
 # Visual Studio 2026 Timeline
 
-Updated: 2026-10-25T00:00:00.0000000+00:00 (UTC)
+Updated: 2026-10-29T00:00:00.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -17,21 +17,27 @@ gantt
     Oct 13 · October Update 18.11.0 : done, vs2026202610130, 2026-10-13, 20d
     Oct 13 · Version 18.10.4 : done, vs2026202610131, 2026-10-13, 20d
     Oct 20 · Version 18.11.1 : done, vs2026202610202, 2026-10-20, 20d
-    Oct 25 · Version 18.11.2 (current) : done, vs2026202610253, 2026-10-25, 20d
+    Oct 25 · Version 18.11.2 : done, vs2026202610253, 2026-10-25, 20d
+    Oct 29 · Version 18.11.3 (current) : done, vs2026202610294, 2026-10-29, 20d
     section Insiders
     Oct 20 · Version 12316.00 : active, insiders202610200, 2026-10-20, 20d
-    Oct 25 · Version 12324.72 (current) : active, insiders202610251, 2026-10-25, 20d
+    Oct 25 · Version 12324.72 : active, insiders202610251, 2026-10-25, 20d
+    Oct 29 · Version 12328.396 (current) : active, insiders202610292, 2026-10-29, 20d
     section Build Tools
     Oct 13 · October Update 18.11.0 : crit, buildtools202610130, 2026-10-13, 20d
     Oct 13 · Version 18.10.4 : crit, buildtools202610131, 2026-10-13, 20d
     Oct 20 · Version 18.11.1 : crit, buildtools202610202, 2026-10-20, 20d
-    Oct 25 · Version 18.11.2 (current) : crit, buildtools202610253, 2026-10-25, 20d
+    Oct 25 · Version 18.11.2 : crit, buildtools202610253, 2026-10-25, 20d
+    Oct 29 · Version 18.11.3 (current) : crit, buildtools202610294, 2026-10-29, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
+| 2026-10-29 | VS 2026 | Version 18.11.3 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.3) |
+| 2026-10-29 | Insiders | Version 12328.396 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12328.396) |
+| 2026-10-29 | Build Tools | Version 18.11.3 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.3) |
 | 2026-10-25 | VS 2026 | Version 18.11.2 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.2) |
 | 2026-10-25 | Insiders | Version 12324.72 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12324.72) |
 | 2026-10-25 | Build Tools | Version 18.11.2 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.2) |
