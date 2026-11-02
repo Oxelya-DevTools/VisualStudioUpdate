@@ -2,15 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-10-31T23:46:36.0000000+00:00</updated>
+  <updated>2026-11-02T15:04:56.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 1306698e</title>
-    <id>https://github.com/microsoft/vscode/commit/1306698e328e5e531f5e632301d30020aa994eff</id>
-    <link href="https://github.com/microsoft/vscode/commit/1306698e328e5e531f5e632301d30020aa994eff" />
-    <published>2026-10-31T23:46:36.0000000+00:00</published>
-    <updated>2026-10-31T23:46:36.0000000+00:00</updated>
-    <summary>Add TylerLeonhardt as CODEOWNER for quickInput.ts API typings (#345324)</summary>
+    <title>VS Code Insiders: Build ebd62d89</title>
+    <id>https://github.com/microsoft/vscode/commit/ebd62d892735a4bcaca4ca02660e3e1348b79481</id>
+    <link href="https://github.com/microsoft/vscode/commit/ebd62d892735a4bcaca4ca02660e3e1348b79481" />
+    <published>2026-11-02T15:04:56.0000000+00:00</published>
+    <updated>2026-11-02T15:04:56.0000000+00:00</updated>
+    <summary>sessions: identify the remote agent environment in the workspace trust dialog (#345571)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 937c6e91</title>
+    <id>https://github.com/microsoft/vscode/commit/937c6e91fd8cbc5b5e6a27128b3540415c98cccb</id>
+    <link href="https://github.com/microsoft/vscode/commit/937c6e91fd8cbc5b5e6a27128b3540415c98cccb" />
+    <published>2026-11-01T23:36:14.0000000+00:00</published>
+    <updated>2026-11-01T23:36:14.0000000+00:00</updated>
+    <summary>agentHost: Use the client's proxy and Kerberos tickets for WSL and local containers (#345225)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 2c78c217</title>
+    <id>https://github.com/microsoft/vscode/commit/2c78c217d550d0cf7d775e1eb385576b8e064829</id>
+    <link href="https://github.com/microsoft/vscode/commit/2c78c217d550d0cf7d775e1eb385576b8e064829" />
+    <published>2026-10-30T09:12:50.0000000+00:00</published>
+    <updated>2026-10-30T09:12:50.0000000+00:00</updated>
+    <summary>sessions: keep shortcut rows highlighted without a pointer focus ring</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.144.0</title>
