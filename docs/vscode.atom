@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-03T13:51:12.0000000+00:00</updated>
+  <updated>2026-11-04T14:17:06.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build cfbc4bcb</title>
-    <id>https://github.com/microsoft/vscode/commit/cfbc4bcb247e71ac92656dfbbb78cea055d45ca7</id>
-    <link href="https://github.com/microsoft/vscode/commit/cfbc4bcb247e71ac92656dfbbb78cea055d45ca7" />
-    <published>2026-11-03T13:51:12.0000000+00:00</published>
-    <updated>2026-11-03T13:51:12.0000000+00:00</updated>
-    <summary>oss: add a license override for @xterm/headless (#345813)</summary>
+    <title>VS Code Insiders: Build c8110cef</title>
+    <id>https://github.com/microsoft/vscode/commit/c8110cefee916084077d06d95e25e7e3a5b3839e</id>
+    <link href="https://github.com/microsoft/vscode/commit/c8110cefee916084077d06d95e25e7e3a5b3839e" />
+    <published>2026-11-04T14:17:06.0000000+00:00</published>
+    <updated>2026-11-04T14:17:06.0000000+00:00</updated>
+    <summary>chat windows: chat windows of the Agents window on parts, with drag and drop between parts (#345683)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.145.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.145.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.145.0" />
+    <published>2026-11-04T08:36:49.0000000+00:00</published>
+    <updated>2026-11-04T08:36:49.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.145.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.144.0</title>
@@ -243,13 +251,5 @@
     <published>2026-06-17T14:59:29.0000000+00:00</published>
     <updated>2026-06-17T14:59:29.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.125.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.124.2</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.124.2</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.124.2" />
-    <published>2026-06-12T05:06:56.0000000+00:00</published>
-    <updated>2026-06-12T05:06:56.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.124.2.</summary>
   </entry>
 </feed>
