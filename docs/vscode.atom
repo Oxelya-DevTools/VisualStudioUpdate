@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-04T14:17:06.0000000+00:00</updated>
+  <updated>2026-11-05T14:37:11.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build c8110cef</title>
-    <id>https://github.com/microsoft/vscode/commit/c8110cefee916084077d06d95e25e7e3a5b3839e</id>
-    <link href="https://github.com/microsoft/vscode/commit/c8110cefee916084077d06d95e25e7e3a5b3839e" />
-    <published>2026-11-04T14:17:06.0000000+00:00</published>
-    <updated>2026-11-04T14:17:06.0000000+00:00</updated>
-    <summary>chat windows: chat windows of the Agents window on parts, with drag and drop between parts (#345683)</summary>
+    <title>VS Code Insiders: Build 585d92e5</title>
+    <id>https://github.com/microsoft/vscode/commit/585d92e5a8ff909e244d66b9831c8a341971b8ba</id>
+    <link href="https://github.com/microsoft/vscode/commit/585d92e5a8ff909e244d66b9831c8a341971b8ba" />
+    <published>2026-11-05T14:37:11.0000000+00:00</published>
+    <updated>2026-11-05T14:37:11.0000000+00:00</updated>
+    <summary>agentHost: add telemetry for the Computer Use rollout (#346241)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build a8596ba4</title>
+    <id>https://github.com/microsoft/vscode/commit/a8596ba47771290cb4e5f6ab68b426febea1818b</id>
+    <link href="https://github.com/microsoft/vscode/commit/a8596ba47771290cb4e5f6ab68b426febea1818b" />
+    <published>2026-11-04T11:23:06.0000000+00:00</published>
+    <updated>2026-11-04T11:23:06.0000000+00:00</updated>
+    <summary>sessions: Acknowledge a workspace-less handoff only once Chat opens</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.145.0</title>
@@ -19,6 +27,14 @@
     <published>2026-11-04T08:36:49.0000000+00:00</published>
     <updated>2026-11-04T08:36:49.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.145.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 2a771c25</title>
+    <id>https://github.com/microsoft/vscode/commit/2a771c25f6e4b1a3e51520981330d5f61e0d7d18</id>
+    <link href="https://github.com/microsoft/vscode/commit/2a771c25f6e4b1a3e51520981330d5f61e0d7d18" />
+    <published>2026-11-03T15:18:04.0000000+00:00</published>
+    <updated>2026-11-03T15:18:04.0000000+00:00</updated>
+    <summary>sessions: Open remote editor folders on their remote agent hosts</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.144.0</title>
