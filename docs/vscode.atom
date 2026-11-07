@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-06T13:45:39.0000000+00:00</updated>
+  <updated>2026-11-07T11:52:18.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build ab84e78c</title>
-    <id>https://github.com/microsoft/vscode/commit/ab84e78c07406b71c947d668417bc69365c65863</id>
-    <link href="https://github.com/microsoft/vscode/commit/ab84e78c07406b71c947d668417bc69365c65863" />
-    <published>2026-11-06T13:45:39.0000000+00:00</published>
-    <updated>2026-11-06T13:45:39.0000000+00:00</updated>
-    <summary>Guard editor and group transfers across windows (#346463)</summary>
+    <title>VS Code Insiders: Build f38b6d89</title>
+    <id>https://github.com/microsoft/vscode/commit/f38b6d8928a171c65a42174e8394270760203fac</id>
+    <link href="https://github.com/microsoft/vscode/commit/f38b6d8928a171c65a42174e8394270760203fac" />
+    <published>2026-11-07T11:52:18.0000000+00:00</published>
+    <updated>2026-11-07T11:52:18.0000000+00:00</updated>
+    <summary>Engineering - cleanup root dev dependencies (#346741)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 6ab2ce7a</title>
+    <id>https://github.com/microsoft/vscode/commit/6ab2ce7a4511614d3a00063422c1e5fb092cae18</id>
+    <link href="https://github.com/microsoft/vscode/commit/6ab2ce7a4511614d3a00063422c1e5fb092cae18" />
+    <published>2026-11-06T23:59:54.0000000+00:00</published>
+    <updated>2026-11-06T23:59:54.0000000+00:00</updated>
+    <summary>Merge main into agents/t3-sessions-inbox-mode-implementation</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.145.2</title>
@@ -27,6 +35,14 @@
     <published>2026-11-06T00:11:36.0000000+00:00</published>
     <updated>2026-11-06T00:11:36.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.145.1.</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 4f1cd9d1</title>
+    <id>https://github.com/microsoft/vscode/commit/4f1cd9d1328a9d33b4aeab58b82b8710a2c77e70</id>
+    <link href="https://github.com/microsoft/vscode/commit/4f1cd9d1328a9d33b4aeab58b82b8710a2c77e70" />
+    <published>2026-11-05T04:24:11.0000000+00:00</published>
+    <updated>2026-11-05T04:24:11.0000000+00:00</updated>
+    <summary>fix: memory leak in keybindings search</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.145.0</title>
