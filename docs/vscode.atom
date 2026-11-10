@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-09T14:21:28.0000000+00:00</updated>
+  <updated>2026-11-10T13:58:10.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build cf2ba554</title>
-    <id>https://github.com/microsoft/vscode/commit/cf2ba5544aee93ccde676d6290a42bcfe7d915b7</id>
-    <link href="https://github.com/microsoft/vscode/commit/cf2ba5544aee93ccde676d6290a42bcfe7d915b7" />
-    <published>2026-11-09T14:21:28.0000000+00:00</published>
-    <updated>2026-11-09T14:21:28.0000000+00:00</updated>
-    <summary>agentHost: fix incorrect model attribution in Codex subagent responses (#340470)</summary>
+    <title>VS Code Insiders: Build f48c6323</title>
+    <id>https://github.com/microsoft/vscode/commit/f48c6323eca71d3e6d7eef38c6b4dddaacb2bfbf</id>
+    <link href="https://github.com/microsoft/vscode/commit/f48c6323eca71d3e6d7eef38c6b4dddaacb2bfbf" />
+    <published>2026-11-10T13:58:10.0000000+00:00</published>
+    <updated>2026-11-10T13:58:10.0000000+00:00</updated>
+    <summary>sessions: hide footer action clicks from artifact activities (#347293)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.145.2</title>
