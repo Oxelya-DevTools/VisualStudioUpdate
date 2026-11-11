@@ -2,15 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-10T13:58:10.0000000+00:00</updated>
+  <updated>2026-11-11T14:09:43.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build f48c6323</title>
-    <id>https://github.com/microsoft/vscode/commit/f48c6323eca71d3e6d7eef38c6b4dddaacb2bfbf</id>
-    <link href="https://github.com/microsoft/vscode/commit/f48c6323eca71d3e6d7eef38c6b4dddaacb2bfbf" />
-    <published>2026-11-10T13:58:10.0000000+00:00</published>
-    <updated>2026-11-10T13:58:10.0000000+00:00</updated>
-    <summary>sessions: hide footer action clicks from artifact activities (#347293)</summary>
+    <title>VS Code Insiders: Build 8603109f</title>
+    <id>https://github.com/microsoft/vscode/commit/8603109f60284bc05b5a1f61586eb137930fdabb</id>
+    <link href="https://github.com/microsoft/vscode/commit/8603109f60284bc05b5a1f61586eb137930fdabb" />
+    <published>2026-11-11T14:09:43.0000000+00:00</published>
+    <updated>2026-11-11T14:09:43.0000000+00:00</updated>
+    <summary>[cherry-pick] chat: add a setting to open the Agents window hover card on click (#347039)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.146.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.146.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.146.0" />
+    <published>2026-11-11T10:07:14.0000000+00:00</published>
+    <updated>2026-11-11T10:07:14.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.146.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.145.3</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.145.3</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.145.3" />
+    <published>2026-11-10T18:53:52.0000000+00:00</published>
+    <updated>2026-11-10T18:53:52.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.145.3.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.145.2</title>
@@ -235,21 +251,5 @@
     <published>2026-07-14T20:48:10.0000000+00:00</published>
     <updated>2026-07-14T20:48:10.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.128.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.128.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.128.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.128.0" />
-    <published>2026-07-08T08:25:25.0000000+00:00</published>
-    <updated>2026-07-08T08:25:25.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.128.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.127.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.127.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.127.0" />
-    <published>2026-07-01T09:32:59.0000000+00:00</published>
-    <updated>2026-07-01T09:32:59.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.127.0.</summary>
   </entry>
 </feed>
