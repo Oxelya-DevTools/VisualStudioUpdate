@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-11T14:09:43.0000000+00:00</updated>
+  <updated>2026-11-12T15:03:29.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 8603109f</title>
-    <id>https://github.com/microsoft/vscode/commit/8603109f60284bc05b5a1f61586eb137930fdabb</id>
-    <link href="https://github.com/microsoft/vscode/commit/8603109f60284bc05b5a1f61586eb137930fdabb" />
-    <published>2026-11-11T14:09:43.0000000+00:00</published>
-    <updated>2026-11-11T14:09:43.0000000+00:00</updated>
-    <summary>[cherry-pick] chat: add a setting to open the Agents window hover card on click (#347039)</summary>
+    <title>VS Code Insiders: Build 910c0ef7</title>
+    <id>https://github.com/microsoft/vscode/commit/910c0ef760c6683df0170c493f996b509450f8cc</id>
+    <link href="https://github.com/microsoft/vscode/commit/910c0ef760c6683df0170c493f996b509450f8cc" />
+    <published>2026-11-12T15:03:29.0000000+00:00</published>
+    <updated>2026-11-12T15:03:29.0000000+00:00</updated>
+    <summary>build: preserve SDK plugin manifests in macOS universal apps (#347875)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build d1eaddbc</title>
+    <id>https://github.com/microsoft/vscode/commit/d1eaddbce49307231b2f05fd0206c0a828a2efc9</id>
+    <link href="https://github.com/microsoft/vscode/commit/d1eaddbce49307231b2f05fd0206c0a828a2efc9" />
+    <published>2026-11-11T15:28:00.0000000+00:00</published>
+    <updated>2026-11-11T15:28:00.0000000+00:00</updated>
+    <summary>agentHost: reflect effective team plugin enablement</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.146.0</title>
