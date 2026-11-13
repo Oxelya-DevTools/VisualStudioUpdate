@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-12T15:03:29.0000000+00:00</updated>
+  <updated>2026-11-13T14:21:31.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 910c0ef7</title>
-    <id>https://github.com/microsoft/vscode/commit/910c0ef760c6683df0170c493f996b509450f8cc</id>
-    <link href="https://github.com/microsoft/vscode/commit/910c0ef760c6683df0170c493f996b509450f8cc" />
-    <published>2026-11-12T15:03:29.0000000+00:00</published>
-    <updated>2026-11-12T15:03:29.0000000+00:00</updated>
-    <summary>build: preserve SDK plugin manifests in macOS universal apps (#347875)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build d1eaddbc</title>
-    <id>https://github.com/microsoft/vscode/commit/d1eaddbce49307231b2f05fd0206c0a828a2efc9</id>
-    <link href="https://github.com/microsoft/vscode/commit/d1eaddbce49307231b2f05fd0206c0a828a2efc9" />
-    <published>2026-11-11T15:28:00.0000000+00:00</published>
-    <updated>2026-11-11T15:28:00.0000000+00:00</updated>
-    <summary>agentHost: reflect effective team plugin enablement</summary>
+    <title>VS Code Insiders: Build 580745c3</title>
+    <id>https://github.com/microsoft/vscode/commit/580745c3ba2151ca0108e613cebf90041942c0da</id>
+    <link href="https://github.com/microsoft/vscode/commit/580745c3ba2151ca0108e613cebf90041942c0da" />
+    <published>2026-11-13T14:21:31.0000000+00:00</published>
+    <updated>2026-11-13T14:21:31.0000000+00:00</updated>
+    <summary>Show structural changes in the Source Control view (#346113)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.146.0</title>
