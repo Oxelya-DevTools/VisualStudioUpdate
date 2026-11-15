@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-14T08:43:34.0000000+00:00</updated>
+  <updated>2026-11-15T11:21:18.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build d53b9e1d</title>
-    <id>https://github.com/microsoft/vscode/commit/d53b9e1def17b1919021ee08c87a5b9453207fe2</id>
-    <link href="https://github.com/microsoft/vscode/commit/d53b9e1def17b1919021ee08c87a5b9453207fe2" />
-    <published>2026-11-14T08:43:34.0000000+00:00</published>
-    <updated>2026-11-14T08:43:34.0000000+00:00</updated>
-    <summary>agentHost: ask to take over a Copilot session another process holds (#346335)</summary>
+    <title>VS Code Insiders: Build d03edc4b</title>
+    <id>https://github.com/microsoft/vscode/commit/d03edc4b18d687c45af067195bad9544b5b07475</id>
+    <link href="https://github.com/microsoft/vscode/commit/d03edc4b18d687c45af067195bad9544b5b07475" />
+    <published>2026-11-15T11:21:18.0000000+00:00</published>
+    <updated>2026-11-15T11:21:18.0000000+00:00</updated>
+    <summary>sessions: bring back pinned canvases after a restart (#348343)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build a389cd7c</title>
+    <id>https://github.com/microsoft/vscode/commit/a389cd7c5195662c3e3998d4ba10604ff5cdaa70</id>
+    <link href="https://github.com/microsoft/vscode/commit/a389cd7c5195662c3e3998d4ba10604ff5cdaa70" />
+    <published>2026-11-14T23:30:03.0000000+00:00</published>
+    <updated>2026-11-14T23:30:03.0000000+00:00</updated>
+    <summary>Agents window: open the extension's page from Manage Extension (#348014)</summary>
   </entry>
   <entry>
     <title>VS Code Insiders: Build 0d359999</title>
