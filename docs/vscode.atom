@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-16T12:34:57.0000000+00:00</updated>
+  <updated>2026-11-17T15:39:23.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 6e68549e</title>
-    <id>https://github.com/microsoft/vscode/commit/6e68549edb69380c9316e49df5d3795d5064a2b0</id>
-    <link href="https://github.com/microsoft/vscode/commit/6e68549edb69380c9316e49df5d3795d5064a2b0" />
-    <published>2026-11-16T12:34:57.0000000+00:00</published>
-    <updated>2026-11-16T12:34:57.0000000+00:00</updated>
-    <summary>keybindings: add editable system-wide scope in Keyboard Shortcuts (#348526)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 9893f280</title>
-    <id>https://github.com/microsoft/vscode/commit/9893f280efbceb0dd54b0327120977223e49af93</id>
-    <link href="https://github.com/microsoft/vscode/commit/9893f280efbceb0dd54b0327120977223e49af93" />
-    <published>2026-11-15T21:59:41.0000000+00:00</published>
-    <updated>2026-11-15T21:59:41.0000000+00:00</updated>
-    <summary>fix: Fix findWithArgs ignoring empty search strings (#151311) (#334803)</summary>
+    <title>VS Code Insiders: Build 3c4da908</title>
+    <id>https://github.com/microsoft/vscode/commit/3c4da908db95209ff14642c1043531538213983b</id>
+    <link href="https://github.com/microsoft/vscode/commit/3c4da908db95209ff14642c1043531538213983b" />
+    <published>2026-11-17T15:39:23.0000000+00:00</published>
+    <updated>2026-11-17T15:39:23.0000000+00:00</updated>
+    <summary>Refactor: Remove unused logger interfaces and methods (#348853)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.146.0</title>
