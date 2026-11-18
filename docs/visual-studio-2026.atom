@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio 2026 Updates</title>
   <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes</id>
-  <updated>2026-11-10T00:00:00.0000000+00:00</updated>
+  <updated>2026-11-17T00:00:00.0000000+00:00</updated>
   <link rel="self" href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes" />
+  <entry>
+    <title>Visual Studio 2026: Version 18.12.1</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.12.1</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.12.1" />
+    <published>2026-11-17T00:00:00.0000000+00:00</published>
+    <updated>2026-11-17T00:00:00.0000000+00:00</updated>
+    <summary>Released on November 17, 2026 . Top bug fixes From the community Hot Reload fails to start session for Executable launch profiles. Feedback ticket Fixed incorrect TypeScript errors appearing in valid .mjs and .cjs JavaScript files when the native language service was enabled. GHCP in SSMS New Harness mode Opt-in Preview Available.</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Insiders: Version 12412.241</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12412.241</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12412.241" />
+    <published>2026-11-17T00:00:00.0000000+00:00</published>
+    <updated>2026-11-17T00:00:00.0000000+00:00</updated>
+    <summary>Released on November 17, 2026 . Top bug fixes From the community Hot Reload fails to start session for Executable launch profiles Feedback ticket</summary>
+  </entry>
+  <entry>
+    <title>Visual Studio 2026 Build Tools: Version 18.12.1</title>
+    <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.12.1</id>
+    <link href="https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.12.1" />
+    <published>2026-11-17T00:00:00.0000000+00:00</published>
+    <updated>2026-11-17T00:00:00.0000000+00:00</updated>
+    <summary>Released on November 17, 2026 . Top bug fixes From the community Hot Reload fails to start session for Executable launch profiles. Feedback ticket Fixed incorrect TypeScript errors appearing in valid .mjs and .cjs JavaScript files when the native language service was enabled. GHCP in SSMS New Harness mode Opt-in Preview Available.</summary>
+  </entry>
   <entry>
     <title>Visual Studio 2026: Version 18.11.4</title>
     <id>https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.4</id>

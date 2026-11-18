@@ -1,6 +1,6 @@
 # Visual Studio 2026 Timeline
 
-Updated: 2026-11-10T00:00:00.0000000+00:00 (UTC)
+Updated: 2026-11-17T00:00:00.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -19,24 +19,29 @@ gantt
     Oct 20 · Version 18.11.1 : done, vs2026202610202, 2026-10-20, 20d
     Oct 25 · Version 18.11.2 : done, vs2026202610253, 2026-10-25, 20d
     Oct 29 · Version 18.11.3 : done, vs2026202610294, 2026-10-29, 20d
-    Nov 10 · November Update 18.12.0 (current) : done, vs2026202611105, 2026-11-10, 20d
-    Nov 10 · Version 18.11.4 (current) : done, vs2026202611106, 2026-11-10, 20d
+    Nov 10 · November Update 18.12.0 : done, vs2026202611105, 2026-11-10, 20d
+    Nov 10 · Version 18.11.4 : done, vs2026202611106, 2026-11-10, 20d
+    Nov 17 · Version 18.12.1 (current) : done, vs2026202611177, 2026-11-17, 20d
     section Insiders
-    Planned updates : milestone, insidersplanned, 2026-10-01, 1d
+    Nov 17 · Version 12412.241 (current) : active, insiders202611170, 2026-11-17, 20d
     section Build Tools
     Oct 13 · October Update 18.11.0 : crit, buildtools202610130, 2026-10-13, 20d
     Oct 13 · Version 18.10.4 : crit, buildtools202610131, 2026-10-13, 20d
     Oct 20 · Version 18.11.1 : crit, buildtools202610202, 2026-10-20, 20d
     Oct 25 · Version 18.11.2 : crit, buildtools202610253, 2026-10-25, 20d
     Oct 29 · Version 18.11.3 : crit, buildtools202610294, 2026-10-29, 20d
-    Nov 10 · November Update 18.12.0 (current) : crit, buildtools202611105, 2026-11-10, 20d
-    Nov 10 · Version 18.11.4 (current) : crit, buildtools202611106, 2026-11-10, 20d
+    Nov 10 · November Update 18.12.0 : crit, buildtools202611105, 2026-11-10, 20d
+    Nov 10 · Version 18.11.4 : crit, buildtools202611106, 2026-11-10, 20d
+    Nov 17 · Version 18.12.1 (current) : crit, buildtools202611177, 2026-11-17, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
+| 2026-11-17 | VS 2026 | Version 18.12.1 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.12.1) |
+| 2026-11-17 | Insiders | Version 12412.241 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes-insiders#12412.241) |
+| 2026-11-17 | Build Tools | Version 18.12.1 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.12.1) |
 | 2026-11-10 | VS 2026 | Version 18.11.4 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#18.11.4) |
 | 2026-11-10 | VS 2026 | November Update 18.12.0 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes#november-update-18120) |
 | 2026-11-10 | Build Tools | Version 18.11.4 | [Open](https://learn.microsoft.com/en-us/visualstudio/releases/2026/release-notes?tabs=buildtools#18.11.4) |

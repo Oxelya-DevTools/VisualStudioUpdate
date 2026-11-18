@@ -2,15 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-17T15:39:23.0000000+00:00</updated>
+  <updated>2026-11-18T09:45:23.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 3c4da908</title>
-    <id>https://github.com/microsoft/vscode/commit/3c4da908db95209ff14642c1043531538213983b</id>
-    <link href="https://github.com/microsoft/vscode/commit/3c4da908db95209ff14642c1043531538213983b" />
-    <published>2026-11-17T15:39:23.0000000+00:00</published>
-    <updated>2026-11-17T15:39:23.0000000+00:00</updated>
-    <summary>Refactor: Remove unused logger interfaces and methods (#348853)</summary>
+    <title>VS Code: Version 1.147.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.147.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.147.0" />
+    <published>2026-11-18T09:45:23.0000000+00:00</published>
+    <updated>2026-11-18T09:45:23.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.147.0.</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 36e8c028</title>
+    <id>https://github.com/microsoft/vscode/commit/36e8c0289a5f29eae15a933263220d9895302ff6</id>
+    <link href="https://github.com/microsoft/vscode/commit/36e8c0289a5f29eae15a933263220d9895302ff6" />
+    <published>2026-11-18T02:17:22.0000000+00:00</published>
+    <updated>2026-11-18T02:17:22.0000000+00:00</updated>
+    <summary>sessions: show create with agent spotlight on click (#348965)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 22598d0c</title>
+    <id>https://github.com/microsoft/vscode/commit/22598d0cd966cf2bee00ea5fbbc99ada3b0ca0d3</id>
+    <link href="https://github.com/microsoft/vscode/commit/22598d0cd966cf2bee00ea5fbbc99ada3b0ca0d3" />
+    <published>2026-11-17T23:41:14.0000000+00:00</published>
+    <updated>2026-11-17T23:41:14.0000000+00:00</updated>
+    <summary>Extensions: show Customizations migration notices (#348044)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.146.0</title>
@@ -243,13 +259,5 @@
     <published>2026-07-15T22:13:23.0000000+00:00</published>
     <updated>2026-07-15T22:13:23.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.129.0.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.128.1</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.128.1</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.128.1" />
-    <published>2026-07-14T20:48:10.0000000+00:00</published>
-    <updated>2026-07-14T20:48:10.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.128.1.</summary>
   </entry>
 </feed>
