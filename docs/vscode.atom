@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-20T15:05:15.0000000+00:00</updated>
+  <updated>2026-11-21T12:54:22.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 8c66756f</title>
-    <id>https://github.com/microsoft/vscode/commit/8c66756fcc298e9ec67e2ef05f0efaefdd37ced2</id>
-    <link href="https://github.com/microsoft/vscode/commit/8c66756fcc298e9ec67e2ef05f0efaefdd37ced2" />
-    <published>2026-11-20T15:05:15.0000000+00:00</published>
-    <updated>2026-11-20T15:05:15.0000000+00:00</updated>
-    <summary>agentHost: show Update Server only when a newer server build is available (#349456)</summary>
+    <title>VS Code Insiders: Build bfbf12b3</title>
+    <id>https://github.com/microsoft/vscode/commit/bfbf12b35b9978b92b2d341e81ade49f2b18c68c</id>
+    <link href="https://github.com/microsoft/vscode/commit/bfbf12b35b9978b92b2d341e81ade49f2b18c68c" />
+    <published>2026-11-21T12:54:22.0000000+00:00</published>
+    <updated>2026-11-21T12:54:22.0000000+00:00</updated>
+    <summary>Engineering - raise the Component Detection timeout of the Quality job to 15 minutes (#349606)</summary>
+  </entry>
+  <entry>
+    <title>VS Code Insiders: Build 3410a8e7</title>
+    <id>https://github.com/microsoft/vscode/commit/3410a8e74d9eb1751aaf29522f81ace566f296dc</id>
+    <link href="https://github.com/microsoft/vscode/commit/3410a8e74d9eb1751aaf29522f81ace566f296dc" />
+    <published>2026-11-20T23:53:22.0000000+00:00</published>
+    <updated>2026-11-20T23:53:22.0000000+00:00</updated>
+    <summary>sessions: center and shorten title-only chats in the phone drawer (#349387)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.147.0</title>
