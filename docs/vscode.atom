@@ -2,23 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-22T10:38:33.0000000+00:00</updated>
+  <updated>2026-11-23T17:26:35.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build aeda4859</title>
-    <id>https://github.com/microsoft/vscode/commit/aeda48593263735daaaf7b85b5f77c3d7ff4a48a</id>
-    <link href="https://github.com/microsoft/vscode/commit/aeda48593263735daaaf7b85b5f77c3d7ff4a48a" />
-    <published>2026-11-22T10:38:33.0000000+00:00</published>
-    <updated>2026-11-22T10:38:33.0000000+00:00</updated>
-    <summary>fix(chat): release a remote chat model once its session is disposed (#349424)</summary>
-  </entry>
-  <entry>
-    <title>VS Code Insiders: Build 733a9984</title>
-    <id>https://github.com/microsoft/vscode/commit/733a99842b0e0e14c3593dfab31fff2035478ba0</id>
-    <link href="https://github.com/microsoft/vscode/commit/733a99842b0e0e14c3593dfab31fff2035478ba0" />
-    <published>2026-11-21T23:14:55.0000000+00:00</published>
-    <updated>2026-11-21T23:14:55.0000000+00:00</updated>
-    <summary>sessions: keep phone session controls next to the prompt (#349591)</summary>
+    <title>VS Code Insiders: Build 3c3f56db</title>
+    <id>https://github.com/microsoft/vscode/commit/3c3f56db86a4034c108ae3642c8a58173d31b1ae</id>
+    <link href="https://github.com/microsoft/vscode/commit/3c3f56db86a4034c108ae3642c8a58173d31b1ae" />
+    <published>2026-11-23T17:26:35.0000000+00:00</published>
+    <updated>2026-11-23T17:26:35.0000000+00:00</updated>
+    <summary>Fix chat image attachment hover corners (#349901)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.147.0</title>
