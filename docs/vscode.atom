@@ -2,15 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-24T17:19:56.0000000+00:00</updated>
+  <updated>2026-11-25T16:43:52.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 4c114c23</title>
-    <id>https://github.com/microsoft/vscode/commit/4c114c231a94169bf880905e8cb7a993fc7cd644</id>
-    <link href="https://github.com/microsoft/vscode/commit/4c114c231a94169bf880905e8cb7a993fc7cd644" />
-    <published>2026-11-24T17:19:56.0000000+00:00</published>
-    <updated>2026-11-24T17:19:56.0000000+00:00</updated>
-    <summary>Agent Host - diff Branch Changes against the recorded base (#350103)</summary>
+    <title>VS Code Insiders: Build f1093998</title>
+    <id>https://github.com/microsoft/vscode/commit/f109399844b0ca71bc53385510ae8d28ce0d4fbd</id>
+    <link href="https://github.com/microsoft/vscode/commit/f109399844b0ca71bc53385510ae8d28ce0d4fbd" />
+    <published>2026-11-25T16:43:52.0000000+00:00</published>
+    <updated>2026-11-25T16:43:52.0000000+00:00</updated>
+    <summary>editor: only read native edit context bounds while focused (#350406)</summary>
+  </entry>
+  <entry>
+    <title>VS Code: Version 1.148.0</title>
+    <id>https://github.com/microsoft/vscode/releases/tag/1.148.0</id>
+    <link href="https://github.com/microsoft/vscode/releases/tag/1.148.0" />
+    <published>2026-11-25T09:44:02.0000000+00:00</published>
+    <updated>2026-11-25T09:44:02.0000000+00:00</updated>
+    <summary>Visual Studio Code stable release 1.148.0.</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.147.0</title>
@@ -243,13 +251,5 @@
     <published>2026-07-17T21:32:58.0000000+00:00</published>
     <updated>2026-07-17T21:32:58.0000000+00:00</updated>
     <summary>Visual Studio Code stable release 1.129.1.</summary>
-  </entry>
-  <entry>
-    <title>VS Code: Version 1.129.0</title>
-    <id>https://github.com/microsoft/vscode/releases/tag/1.129.0</id>
-    <link href="https://github.com/microsoft/vscode/releases/tag/1.129.0" />
-    <published>2026-07-15T22:13:23.0000000+00:00</published>
-    <updated>2026-07-15T22:13:23.0000000+00:00</updated>
-    <summary>Visual Studio Code stable release 1.129.0.</summary>
   </entry>
 </feed>

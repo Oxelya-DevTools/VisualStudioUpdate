@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-11-24T17:19:56.0000000+00:00 (UTC)
+Updated: 2026-11-25T16:43:52.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -27,15 +27,17 @@ gantt
     Nov 10 · Version 1.145.3 : done, vscode2026111010, 2026-11-10, 20d
     Nov 11 · Version 1.146.0 : done, vscode2026111111, 2026-11-11, 20d
     Nov 18 · Version 1.147.0 : done, vscode2026111812, 2026-11-18, 20d
+    Nov 25 · Version 1.148.0 (current) : done, vscode2026112513, 2026-11-25, 20d
     section VS Code Insiders
-    Nov 24 · Build 4c114c23 (current) : active, vscodeinsiders202611240, 2026-11-24, 20d
+    Nov 25 · Build f1093998 (current) : active, vscodeinsiders202611250, 2026-11-25, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-11-24 | VS Code Insiders | Build 4c114c23 | [Open](https://github.com/microsoft/vscode/commit/4c114c231a94169bf880905e8cb7a993fc7cd644) |
+| 2026-11-25 | VS Code Insiders | Build f1093998 | [Open](https://github.com/microsoft/vscode/commit/f109399844b0ca71bc53385510ae8d28ce0d4fbd) |
+| 2026-11-25 | VS Code | Version 1.148.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.148.0) |
 | 2026-11-18 | VS Code | Version 1.147.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.147.0) |
 | 2026-11-11 | VS Code | Version 1.146.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.146.0) |
 | 2026-11-10 | VS Code | Version 1.145.3 | [Open](https://github.com/microsoft/vscode/releases/tag/1.145.3) |
@@ -65,4 +67,3 @@ gantt
 | 2026-07-29 | VS Code | Version 1.131.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.131.0) |
 | 2026-07-22 | VS Code | Version 1.130.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.130.0) |
 | 2026-07-17 | VS Code | Version 1.129.1 | [Open](https://github.com/microsoft/vscode/releases/tag/1.129.1) |
-| 2026-07-15 | VS Code | Version 1.129.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.129.0) |
