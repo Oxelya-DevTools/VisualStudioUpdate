@@ -1,6 +1,6 @@
 # Visual Studio Code Timeline
 
-Updated: 2026-11-25T16:43:52.0000000+00:00 (UTC)
+Updated: 2026-11-26T16:19:26.0000000+00:00 (UTC)
 
 Roadmap window: **only months with published releases**.
 
@@ -27,16 +27,16 @@ gantt
     Nov 10 · Version 1.145.3 : done, vscode2026111010, 2026-11-10, 20d
     Nov 11 · Version 1.146.0 : done, vscode2026111111, 2026-11-11, 20d
     Nov 18 · Version 1.147.0 : done, vscode2026111812, 2026-11-18, 20d
-    Nov 25 · Version 1.148.0 (current) : done, vscode2026112513, 2026-11-25, 20d
+    Nov 25 · Version 1.148.0 : done, vscode2026112513, 2026-11-25, 20d
     section VS Code Insiders
-    Nov 25 · Build f1093998 (current) : active, vscodeinsiders202611250, 2026-11-25, 20d
+    Nov 26 · Build 4fb3414b (current) : active, vscodeinsiders202611260, 2026-11-26, 20d
 ```
 
 ## Releases
 
 | Date (UTC) | Channel | Version | Release notes |
 | --- | --- | --- | --- |
-| 2026-11-25 | VS Code Insiders | Build f1093998 | [Open](https://github.com/microsoft/vscode/commit/f109399844b0ca71bc53385510ae8d28ce0d4fbd) |
+| 2026-11-26 | VS Code Insiders | Build 4fb3414b | [Open](https://github.com/microsoft/vscode/commit/4fb3414b00394f03f45b03b3e80787b25f346cd1) |
 | 2026-11-25 | VS Code | Version 1.148.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.148.0) |
 | 2026-11-18 | VS Code | Version 1.147.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.147.0) |
 | 2026-11-11 | VS Code | Version 1.146.0 | [Open](https://github.com/microsoft/vscode/releases/tag/1.146.0) |
