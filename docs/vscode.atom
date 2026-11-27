@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Visual Studio Code Updates</title>
   <id>https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom</id>
-  <updated>2026-11-26T16:19:26.0000000+00:00</updated>
+  <updated>2026-11-27T15:23:06.0000000+00:00</updated>
   <link rel="self" href="https://oxelya-devtools.github.io/VisualStudioUpdate/vscode.atom" />
   <entry>
-    <title>VS Code Insiders: Build 4fb3414b</title>
-    <id>https://github.com/microsoft/vscode/commit/4fb3414b00394f03f45b03b3e80787b25f346cd1</id>
-    <link href="https://github.com/microsoft/vscode/commit/4fb3414b00394f03f45b03b3e80787b25f346cd1" />
-    <published>2026-11-26T16:19:26.0000000+00:00</published>
-    <updated>2026-11-26T16:19:26.0000000+00:00</updated>
-    <summary>history: remember every location a folder location switch left, and keep the put away lists up to date on deletes and moves (#350565)</summary>
+    <title>VS Code Insiders: Build fe444ae0</title>
+    <id>https://github.com/microsoft/vscode/commit/fe444ae00bd0ab083135f2e5f2340adf1314b69d</id>
+    <link href="https://github.com/microsoft/vscode/commit/fe444ae00bd0ab083135f2e5f2340adf1314b69d" />
+    <published>2026-11-27T15:23:06.0000000+00:00</published>
+    <updated>2026-11-27T15:23:06.0000000+00:00</updated>
+    <summary>layout: a hidden editor area takes no room from the chat part's neighbours (#350717)</summary>
   </entry>
   <entry>
     <title>VS Code: Version 1.148.0</title>
